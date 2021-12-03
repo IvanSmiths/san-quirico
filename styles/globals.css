@@ -6,6 +6,16 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +23,105 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --main-color: #cf7f24;
+  --extremeFont: clamp(7rem, 19vw, 14rem);
+  --largeFont: clamp(3.5rem, 13vw, 14rem);
+  --mediumFont: clamp(1.8rem, 4.7vw, 3rem);
+  --smallFont: clamp(0.9rem, 1.7vw, 2rem);
+  --tinyFont: clamp(0.7rem, 0.9vw, 2rem);
+
+  --impactBigLine: clamp(2.2rem, 6.3vw, 5.6rem);
+  --impactLargeLine: clamp(2.2rem, 14vw, 12.6rem);
+
+  --marginLayout: 8rem;
+  --marginBottomBlog: 3rem;
+  --marginFooter: 15vw;
+  --marginSection: clamp(15rem, 12.3vw, 20rem);
+}
+
+::-moz-selection {
+  color: var(--main-color);
+}
+::selection {
+  color: var(--main-color);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-bg-primary);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-text-primary);
+}
+
+.extreme-font {
+  font-size: var(--extremeFont);
+}
+
+.large-font {
+  font-size: var(--largeFont);
+}
+
+.large-font-inverse {
+  font-size: var(--largeFont);
+  color: var(--color-text-inverse);
+}
+
+.medium-font {
+  font-size: var(--mediumFont);
+}
+
+.small-font {
+  font-weight: 400;
+  font-size: var(--smallFont);
+}
+
+p {
+  font-weight: 400;
+  font-size: var(--smallFont);
+}
+
+.tiny-font {
+  font-size: var(--tinyFont);
+}
+
+.tiny-font-inverse {
+  color: var(--color-text-inverse);
+  font-size: var(--tinyFont);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+  font-weight: 400;
+  color: var(--color-text-primary);
+}
+
+.bold {
+  font-weight: 800;
+}
+
+@import 'home.css';
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
