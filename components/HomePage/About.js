@@ -4,7 +4,7 @@ const About = () => {
   return (
     <main className="main-cnt flex-center">
       <div className="flex-center">
-        <p className="medium-font">Lorem ipsum dolor sit amet,</p>
+        <p className="medium-font">Lorem ipsum</p>
         <ImageComponent
           src={'/main-image.jpg'}
           webp={'/main-image.webp'}
