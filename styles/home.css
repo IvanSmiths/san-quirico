@@ -45,6 +45,7 @@ h2 {
 .main-paragraph-image img {
   width: 90px;
   height: auto;
+  margin-bottom: -1rem;
 }
 
 .main-paragraph-image picture {
