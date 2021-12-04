@@ -72,3 +72,19 @@ h2 {
   color: rgb(209, 209, 209);
   text-transform: uppercase;
 }
+
+.showcase-1-cnt {
+  margin-top: var(--marginSection);
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase-1-paragraph-cnt {
+  padding-right: 5vw;
+  padding-left: 5vw;
+  text-align: right;
+}
+
+.showcase-1-paragraph-cnt p {
+  margin-top: 1rem;
+}

@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { motion } from 'framer-motion';
-import ImageComponent from '../ImageComponent';
+
 const About = () => {
   return (
     <main className="main-cnt flex-center">
