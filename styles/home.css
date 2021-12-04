@@ -73,18 +73,38 @@ h2 {
   text-transform: uppercase;
 }
 
-.showcase-1-cnt {
+.foto-san-quirico-1-cnt {
   margin-top: var(--marginSection);
   display: flex;
   justify-content: space-between;
 }
 
-.showcase-1-paragraph-cnt {
+.foto-san-quirico-1-paragrafo-cnt {
   padding-right: 5vw;
   padding-left: 5vw;
   text-align: right;
 }
 
-.showcase-1-paragraph-cnt p {
+.foto-san-quirico-1-paragrafo-cnt p {
   margin-top: 1rem;
+}
+
+.foto-san-quirico-2-cnt {
+  margin-top: var(--marginSection);
+  display: flex;
+  justify-content: space-between;
+}
+
+.foto-san-quirico-2-img-cnt {
+  width: 40%;
+  height: 100%;
+}
+
+.foto-san-quirico-2-img-cnt picture img {
+  height: 100%;
+}
+
+.foto-san-quirico-2-paragrafo-cnt {
+  padding: 0 6vw;
+  width: 60%;
 }

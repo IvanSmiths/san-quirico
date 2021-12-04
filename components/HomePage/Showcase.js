@@ -4,18 +4,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 const Showcase = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="showcase-1-cnt">
+    <div className="foto-san-quirico-1-cnt">
       <div>
-        <motion.picture
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-          variants={{
-            hidden: { opacity: 0, x: -100 },
-            visible: { opacity: 1, x: 0 },
-          }}
-        >
+        <picture className="cover">
           <source
             alt={'sito archeologico di san quirico, pozzo'}
             decoding={'async'}
@@ -33,9 +24,9 @@ const Showcase = () => {
             height={'100%'}
             width={'900px'}
           />
-        </motion.picture>{' '}
+        </picture>{' '}
       </div>
-      <div className="showcase-1-paragraph-cnt">
+      <div className="foto-san-quirico-1-paragrafo-cnt">
         <motion.div>
           <AnimatePresence>
             <motion.div
@@ -45,7 +36,7 @@ const Showcase = () => {
             >
               <motion.div className="text-gray-800 font-bold ml-1">
                 <h3 className="small-font">
-                  {isOpen ? '+++' : '+'} Do you like animations?
+                  {isOpen ? '+++' : '+'} Più informazioni
                 </h3>
               </motion.div>
             </motion.div>

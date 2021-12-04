@@ -4,6 +4,7 @@ import CntMarquee from '../components/HomePage/CntMarquee';
 
 import Hero from '../components/HomePage/Hero';
 import Showcase from '../components/HomePage/Showcase';
+import Showcase2 from '../components/HomePage/Showcase2';
 
 export default function Home() {
   const schemaData = {
@@ -49,6 +50,7 @@ export default function Home() {
       <About />
       <CntMarquee />
       <Showcase />
+      <Showcase2 />
     </>
   );
 }
