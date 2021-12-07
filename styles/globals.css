@@ -42,6 +42,25 @@ a {
   --marginSection: clamp(15rem, 12.3vw, 20rem);
 }
 
+body,
+body[data-theme='light'] {
+  --color-bg-primary: #cccccc;
+  --color-text-primary: #060606;
+  --color-text-inverse: #cccccc;
+  --color-bg-inverse: #060606;
+}
+
+body[data-theme='dark'] {
+  --color-bg-primary: #060606;
+  --color-text-primary: #cccccc;
+  --color-text-inverse: #060606;
+  --color-bg-inverse: #cccccc;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+}
+
 ::-moz-selection {
   color: var(--main-color);
 }
@@ -124,4 +143,17 @@ li {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+/* THEME SWITCH */
+/* THEME SWITCH */
+/* THEME SWITCH */
+
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  cursor: pointer;
+  left: 20px;
+  font-size: 1.4rem;
+  z-index: 9;
 }

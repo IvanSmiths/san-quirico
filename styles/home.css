@@ -19,7 +19,7 @@ h1,
 h2 {
   text-align: center;
   z-index: 2;
-  color: white;
+  color: white !important;
 }
 
 .home-header-img-cnt img {
@@ -69,7 +69,7 @@ h2 {
 .track > em {
   font-style: normal;
   margin: 20px 0;
-  color: rgb(209, 209, 209);
+  color: var(--color-text-primary);
   text-transform: uppercase;
 }
 
