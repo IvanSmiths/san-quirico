@@ -3,6 +3,7 @@ import About from '../components/HomePage/About';
 import CntMarquee from '../components/HomePage/CntMarquee';
 
 import Hero from '../components/HomePage/Hero';
+import Ruota from '../components/HomePage/Ruota';
 import Showcase from '../components/HomePage/Showcase';
 import Showcase2 from '../components/HomePage/Showcase2';
 
@@ -51,6 +52,7 @@ export default function Home() {
       <CntMarquee />
       <Showcase />
       <Showcase2 />
+      <Ruota />
     </>
   );
 }
