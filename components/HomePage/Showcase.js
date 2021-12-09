@@ -35,6 +35,14 @@ const Showcase = () => {
               onClick={() => setIsOpen(!isOpen)}
             >
               <motion.div className="text-gray-800 font-bold ml-1">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer et venenatis elit, id iaculis nisl. Vivamus ut maximus
+                  sem. Pellentesque vitae sapien ultricies, interdum arcu ac,
+                  sagittis quam. Sed ut eros hendrerit, lacinia diam id,
+                  pharetra arcu. Vivamus semper luctus malesuada. Donec euismod
+                  massa id varius volutpat.
+                </p>
                 <h3 className="small-font">
                   {isOpen ? '+++' : '+'} Più informazioni
                 </h3>

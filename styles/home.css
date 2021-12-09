@@ -26,6 +26,10 @@ h2 {
   object-fit: cover;
 }
 
+.cover img {
+  object-fit: cover;
+}
+
 .main-cnt {
   margin-top: var(--marginSection);
   margin-bottom: var(--marginSection);

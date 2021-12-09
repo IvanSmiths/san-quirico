@@ -38,6 +38,9 @@ function Showcase2() {
           />
         </picture>{' '}
       </div>
+      <video autoPlay muted loop>
+        <source src="/video-1.webm" type="video/webm" />
+      </video>
     </div>
   );
 }
