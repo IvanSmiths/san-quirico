@@ -5,7 +5,7 @@ const Showcase = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="foto-san-quirico-1-cnt">
-      <div>
+      <div className="foto-san-quirico-1">
         <picture className="cover">
           <source
             alt={'sito archeologico di san quirico, pozzo'}
@@ -25,6 +25,7 @@ const Showcase = () => {
             width={'900px'}
           />
         </picture>{' '}
+        <h2 className="small-font descrizione-foto">+ San Quirico - Pozzo</h2>
       </div>
       <div className="foto-san-quirico-1-paragrafo-cnt">
         <motion.div>
@@ -35,17 +36,16 @@ const Showcase = () => {
               onClick={() => setIsOpen(!isOpen)}
             >
               <motion.div className="text-gray-800 font-bold ml-1">
+                <h3 className="medium-font">Lorem ipsum dolor sit amet.</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer et venenatis elit, id iaculis nisl. Vivamus ut maximus
-                  sem. Pellentesque vitae sapien ultricies, interdum arcu ac,
-                  sagittis quam. Sed ut eros hendrerit, lacinia diam id,
-                  pharetra arcu. Vivamus semper luctus malesuada. Donec euismod
-                  massa id varius volutpat.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cumque corrupti quaerat dolorem eius odio facilis, maiores
+                  fugit voluptate quibusdam iste.
                 </p>
-                <h3 className="small-font">
-                  {isOpen ? '+++' : '+'} Più informazioni
-                </h3>
+                <span className="small-font accordion">
+                  <em className="segno-addizione">{isOpen ? '+++' : '+'}</em>
+                  Più informazioni
+                </span>
               </motion.div>
             </motion.div>
 

@@ -11,15 +11,26 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
-.home-header-cnt,
-h1,
-h2 {
-  text-align: center;
+.home-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 3vw;
+  height: 100vh;
+}
+
+.titolo {
+  display: block;
+  width: 50%;
+  text-transform: uppercase;
+  padding-right: 13rem;
   z-index: 2;
   color: white !important;
+  margin-top: auto;
+  margin-bottom: 3rem;
 }
 
 .home-header-img-cnt img {
@@ -79,14 +90,53 @@ h2 {
 
 .foto-san-quirico-1-cnt {
   margin-top: var(--marginSection);
+  position: relative;
   display: flex;
   justify-content: space-between;
+}
+
+.foto-san-quirico-1 {
+  width: 57%;
+  display: flex;
+}
+
+.accordion {
+  display: block;
+  margin-top: 1rem;
+}
+
+.segno-addizione {
+  text-transform: uppercase;
+  margin-right: 0.3rem;
+  font-weight: 800;
+}
+
+.foto-san-quirico-1 picture {
+  width: 100%;
+}
+
+.foto-san-quirico-1 img {
+  width: 100%;
+}
+
+.descrizione-foto {
+  transform-origin: 15px;
+  position: absolute;
+  left: 57.5%;
+  text-transform: uppercase;
+  bottom: 5px;
+  transform: rotate(-90deg);
+}
+
+.descrizione-foto::first-letter {
+  font-weight: 800;
 }
 
 .foto-san-quirico-1-paragrafo-cnt {
   padding-right: 5vw;
   padding-left: 5vw;
   text-align: right;
+  width: 40%;
 }
 
 .foto-san-quirico-1-paragrafo-cnt p {

@@ -7,8 +7,9 @@ function Showcase2() {
     <div className="foto-san-quirico-2-cnt">
       <div className="foto-san-quirico-2-paragrafo-cnt">
         <p className="medium-font">
-          +++ <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Omnis distinctio fugit, dolore, accusantium. <br />
+          <em>+++</em>
+          <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+          distinctio fugit, dolore, accusantium. <br />
           <br />
           Sequi assumenda dolorem adipisci qui nesciunt amet expedita quod
           beatae unde iusto ut, possimus aspernatur! Dolorem, voluptatum!
