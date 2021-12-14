@@ -24,7 +24,7 @@ const Showcase = () => {
             height={'100%'}
             width={'900px'}
           />
-        </picture>{' '}
+        </picture>
         <h2 className="small-font descrizione-foto">+ San Quirico - Pozzo</h2>
       </div>
       <div className="foto-san-quirico-1-paragrafo-cnt">
@@ -42,10 +42,10 @@ const Showcase = () => {
                   Cumque corrupti quaerat dolorem eius odio facilis, maiores
                   fugit voluptate quibusdam iste.
                 </p>
-                <span className="small-font accordion">
+                <h4 className="small-font accordion">
                   <em className="segno-addizione">{isOpen ? '+++' : '+'}</em>
                   Più informazioni
-                </span>
+                </h4>
               </motion.div>
             </motion.div>
 

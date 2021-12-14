@@ -202,6 +202,16 @@
 
 .ruota-paragrafo-cnt {
   width: 50%;
+  padding-right: 7%;
+}
+
+.ruota-paragrafo-cnt p,
+img {
+  padding-top: 2rem;
+}
+
+.ruota-paragrafo-cnt img {
+  padding: 4rem 0;
 }
 
 .sticky {
