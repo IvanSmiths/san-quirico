@@ -46,6 +46,7 @@ body,
 body[data-theme='light'] {
   --color-bg-primary: #cccccc;
   --color-text-primary: #060606;
+  --color-text-sub: #adadad;
   --color-text-inverse: #cccccc;
   --color-bg-inverse: #060606;
 }
@@ -53,6 +54,7 @@ body[data-theme='light'] {
 body[data-theme='dark'] {
   --color-bg-primary: #060606;
   --color-text-primary: #cccccc;
+  --color-text-sub: #1b1b1b;
   --color-text-inverse: #060606;
   --color-bg-inverse: #cccccc;
 }

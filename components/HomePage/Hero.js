@@ -1,5 +1,4 @@
 import React from 'react';
-import ImageComponent from '../ImageComponent';
 
 function Hero() {
   return (

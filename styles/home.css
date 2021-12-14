@@ -84,7 +84,7 @@
 .track > em {
   font-style: normal;
   margin: 20px 0;
-  color: var(--color-text-primary);
+  color: var(--color-text-sub);
   text-transform: uppercase;
 }
 
@@ -103,6 +103,37 @@
 .accordion {
   display: block;
   margin-top: 1rem;
+}
+
+.marquee-sezione-cnt {
+  position: relative;
+}
+
+.marquee-sezione {
+  position: absolute;
+  z-index: 4;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.marquee-sezione-2 {
+  position: absolute;
+  z-index: 4;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.marquee-sezione img {
+  height: 100%;
+  transform-origin: bottom;
+  width: 30vw;
+}
+
+.marquee-sezione-2 img {
+  height: 100%;
+  width: 30vw;
 }
 
 .segno-addizione {

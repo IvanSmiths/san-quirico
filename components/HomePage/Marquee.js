@@ -23,9 +23,20 @@ const Marquee = () => {
         variants={marqueeVariants}
         animate="animate"
       >
-        <em className="impact large-font">
-          san quirico san quirico san quirico
-        </em>
+        <motion.em
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+          variants={{
+            hidden: { opacity: 0, y: -100 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          className="impact extreme-font"
+        >
+          san quirico san quirico san quirico san quirico san quirico san
+          quirico
+        </motion.em>
       </motion.div>
     </div>
   );
