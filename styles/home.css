@@ -33,6 +33,18 @@
   margin-bottom: 3rem;
 }
 
+.hero-freccia {
+  z-index: 6;
+  left: 50%;
+  bottom: 20px;
+  overflow: visible;
+  stroke: var(--main-color);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  position: absolute;
+}
+
 .home-header-img-cnt img {
   object-fit: cover;
 }
