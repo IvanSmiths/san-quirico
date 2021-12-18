@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <main className="main-cnt flex-center">
+    <main id="about" className="main-cnt flex-center">
       <div className="flex-center">
         <motion.p
           initial="hidden"

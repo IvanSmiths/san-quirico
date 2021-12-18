@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="54" viewBox="0 0 62 54">
+  <g id="Poligono_1" data-name="Poligono 1" transform="translate(62 54) rotate(180)" fill="#fff">
+    <path d="M 61.13642883300781 53.5 L 0.8635712862014771 53.5 L 31 1.004285454750061 L 61.13642883300781 53.5 Z" stroke="none"/>
+    <path d="M 31 2.008563995361328 L 1.727138519287109 53 L 60.27286148071289 53 L 31 2.008563995361328 M 31 0 L 62 54 L 0 54 L 31 0 Z" stroke="none" fill="#707070"/>
+  </g>
+</svg>
