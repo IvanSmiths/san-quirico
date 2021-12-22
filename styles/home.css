@@ -319,3 +319,91 @@ img {
   text-align: right;
   padding-right: 6.5%;
 }
+
+.box-fixed {
+  position: fixed !important;
+}
+
+.box-cnt {
+  background-color: yellow;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 300vw;
+  z-index: 3;
+}
+
+.box {
+  background-color: yellow;
+  top: 0;
+  left: 0;
+  height: 300vw;
+  position: absolute;
+  width: 100vw;
+  z-index: 3;
+}
+
+.box1 {
+  background-color: rgb(39, 145, 145);
+  top: 0;
+  left: 0;
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  z-index: 3;
+}
+
+.box2 {
+  background-color: red;
+  top: 0;
+  left: 100vw;
+  height: 100vh;
+  position: absolute;
+  width: 102vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  z-index: 3;
+}
+
+.box3 {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 200vw;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+  z-index: 3;
+}
+
+.box-cnt-2 {
+  height: 100vh;
+  background-color: var(--color-bg-primary);
+  overflow: hidden;
+  position: relative;
+}
+
+.box3-2 {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  background-color: green;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+}

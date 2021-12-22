@@ -15,16 +15,7 @@ const Showcase3 = () => {
           Reprehenderit, optio animi!
         </p>
       </div>
-      <motion.picture
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        transition={{ duration: 0.7 }}
-        variants={{
-          hidden: { opacity: 0, x: -100 },
-          visible: { opacity: 1, x: 0 },
-        }}
-      >
+      <picture>
         <source
           alt={'sito archeologico di san quirico, pozzo'}
           decoding={'async'}
@@ -42,7 +33,7 @@ const Showcase3 = () => {
           height={'100%'}
           width={'100%'}
         />
-      </motion.picture>{' '}
+      </picture>{' '}
     </div>
   );
 };

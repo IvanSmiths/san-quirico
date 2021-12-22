@@ -13,9 +13,6 @@ function Showcase2() {
           <br />
           Sequi assumenda dolorem adipisci qui nesciunt amet expedita quod
           beatae unde iusto ut, possimus aspernatur! Dolorem, voluptatum!
-          <br />
-          <br />
-          Sequi assumenda dolorem adipisci.
         </p>
       </div>
       <div className="foto-san-quirico-2-img-cnt">

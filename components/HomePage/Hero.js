@@ -24,6 +24,7 @@ function Hero() {
         <Link href="/#about">
           <a>
             <motion.svg
+              alt="scroll down"
               className="hero-freccia"
               xmlns="http://www.w3.org/2000/svg"
               width="48.995"

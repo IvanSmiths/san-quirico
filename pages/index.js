@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import About from '../components/HomePage/About';
 import CntMarquee from '../components/HomePage/CntMarquee';
+import Gallery from '../components/HomePage/Gallery';
 
 import Hero from '../components/HomePage/Hero';
 import Ruota from '../components/HomePage/Ruota';
@@ -55,6 +56,8 @@ export default function Home() {
       <Showcase2 />
       <Ruota />
       <Showcase3 />
+      <Gallery />
+      <Showcase />
     </>
   );
 }
