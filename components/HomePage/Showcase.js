@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+
 const Showcase = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -30,21 +31,20 @@ const Showcase = () => {
       <div className="foto-san-quirico-1-paragrafo-cnt">
         <motion.div>
           <AnimatePresence>
-            <motion.div
-              key="question"
-              className="rounded-tr-md relative z-20  rounded-br-md shadow-sm px-1 py-2 bg-blue-200 cursor-pointer font-open border-l-2 border-yellow-500"
-              onClick={() => setIsOpen(!isOpen)}
-            >
-              <motion.div className="text-gray-800 font-bold ml-1">
+            <motion.div>
+              <motion.div>
                 <h3 className="medium-font">Lorem ipsum dolor sit amet.</h3>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Cumque corrupti quaerat dolorem eius odio facilis, maiores
                   fugit voluptate quibusdam iste.
                 </p>
-                <h4 className="small-font accordion">
+                <h4
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="small-font accordion pointer"
+                >
                   <em className="segno-addizione">{isOpen ? '+++' : '+'}</em>
-                  Più informazioni
+                  {isOpen ? 'Meno' : 'Più'} informazioni
                 </h4>
               </motion.div>
             </motion.div>

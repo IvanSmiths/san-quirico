@@ -29,7 +29,7 @@ a {
   --main-color: #cf7f24;
   --extremeFont: clamp(7rem, 19vw, 14rem);
   --largeFont: clamp(3.5rem, 13vw, 14rem);
-  --mediumFont: clamp(1.8rem, 3.6vw, 4rem);
+  --mediumFont: clamp(1.8rem, 6.6vw, 4rem);
   --smallFont: clamp(0.9rem, 1.1vw, 2rem);
   --tinyFont: clamp(0.7rem, 0.9vw, 2rem);
 
@@ -46,7 +46,7 @@ body,
 body[data-theme='light'] {
   --color-bg-primary: #cccccc;
   --color-text-primary: #060606;
-  --color-text-sub: #adadad;
+  --color-text-sub: #eeeeee;
   --color-text-inverse: #cccccc;
   --color-bg-inverse: #060606;
 }
@@ -139,8 +139,25 @@ li {
   color: var(--color-text-primary);
 }
 
+textarea {
+  resize: vertical;
+}
+
 .bold {
   font-weight: 800;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.btn {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: none;
+  border: 1px solid var(--main-color);
+  color: black;
+  font-weight: 400;
 }
 
 @import 'home.css';

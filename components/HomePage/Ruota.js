@@ -76,6 +76,58 @@ function Ruota() {
           minus corrupti molestias facere fugiat voluptatum natus similique
           nulla repudiandae, sed quod commodi! Rem.
         </p>
+        <div className="form-cnt">
+          <h6 className="medium-font highlight-main">Can you help?</h6>
+          <form action="https://formsubmit.co/" method="POST" className="form">
+            <input
+              type="hidden"
+              name="_next"
+              value="http://localhost:3000/thank-you-message"
+            />
+            <input
+              type="hidden"
+              name="_subject"
+              value="San Quirico Archeologia"
+            />
+            <label htmlFor="name" className="small-font">
+              Nome
+            </label>
+            <input type="text" id="name" name="name" minLength="3" required />
+            <label htmlFor="object" className="small-font">
+              Oggetto
+            </label>
+            <input
+              type="text"
+              id="object"
+              name="object"
+              minLength="4"
+              required
+            />
+            <label htmlFor="email" className="small-font">
+              Email
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              minLength="6"
+              required
+            />
+            <label className="small-font" htmlFor="message">
+              Messaggio
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              minLength="10"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button className="btn pointer" type="submit">
+              Invia
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   );
