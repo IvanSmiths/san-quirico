@@ -325,7 +325,6 @@ img {
 }
 
 .box-cnt {
-  background-color: yellow;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -335,7 +334,6 @@ img {
 }
 
 .box {
-  background-color: yellow;
   top: 0;
   left: 0;
   height: 300vw;
@@ -345,7 +343,6 @@ img {
 }
 
 .box1 {
-  background-color: rgb(39, 145, 145);
   top: 0;
   left: 0;
   height: 100vh;
@@ -360,7 +357,6 @@ img {
 }
 
 .box2 {
-  background-color: red;
   top: 0;
   left: 100vw;
   height: 100vh;
@@ -371,11 +367,11 @@ img {
   justify-content: center;
   gap: 3rem;
   align-items: center;
-  z-index: 3;
+  z-index: 6;
 }
 
 .box3 {
-  background-color: green;
+  background-color: var(--color-bg-primary);
   position: absolute;
   top: 0;
   left: 200vw;
@@ -397,13 +393,25 @@ img {
 }
 
 .box3-2 {
+  background-color: var(--color-bg-primary);
   display: flex;
   position: absolute;
   flex-direction: row;
   justify-content: center;
   gap: 3rem;
-  background-color: green;
   z-index: 1;
   height: 100vh;
   width: 100vw;
+}
+
+.archeologia-foto-1 img {
+  position: absolute;
+  top: 30%;
+  right: -220px;
+}
+
+.archeologia-foto-2 img {
+  position: absolute;
+  top: 10%;
+  left: 20%;
 }

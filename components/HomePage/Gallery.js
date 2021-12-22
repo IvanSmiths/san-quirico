@@ -37,14 +37,173 @@ function Gallery() {
     <section ref={ref}>
       <div className="box-cnt" id="box-cnt">
         <div id="box" className="box">
-          <div id="box1" className="box1"></div>
-          <div id="box2" className="box2"></div>
-          <div id="box3" className="box3"></div>
+          <div id="box1" className="box1">
+            <picture className="archeologia-foto-1">
+              <source
+                alt={'sito archeologico di san quirico, pozzo'}
+                decoding={'async'}
+                loading={'lazy'}
+                height={'auto'}
+                width={'50%'}
+                srcSet={'/main-image.webp'}
+                type="image/webp"
+              />
+              <img
+                alt={'sito archeologico di san quirico, pozzo'}
+                loading={'lazy'}
+                decoding={'async'}
+                src={'/main-image.jpg'}
+                height={'auto'}
+                width={'50%'}
+              />
+            </picture>
+            <picture className="archeologia-foto-2">
+              <source
+                alt={'sito archeologico di san quirico, pozzo'}
+                decoding={'async'}
+                loading={'lazy'}
+                height={'50%'}
+                width={'auto'}
+                srcSet={'/0015.webp'}
+                type="image/webp"
+              />
+              <img
+                alt={'sito archeologico di san quirico, pozzo'}
+                loading={'lazy'}
+                decoding={'async'}
+                src={'/0015.jpg'}
+                height={'50%'}
+                width={'auto'}
+              />
+            </picture>
+          </div>
+          <div id="box2" className="box2">
+            {' '}
+            <picture className="archeologia-foto-1">
+              <source
+                alt={'sito archeologico di san quirico, pozzo'}
+                decoding={'async'}
+                loading={'lazy'}
+                height={'auto'}
+                width={'50%'}
+                srcSet={'/main-image.webp'}
+                type="image/webp"
+              />
+              <img
+                alt={'sito archeologico di san quirico, pozzo'}
+                loading={'lazy'}
+                decoding={'async'}
+                src={'/main-image.jpg'}
+                height={'auto'}
+                width={'50%'}
+              />
+            </picture>
+            <picture className="archeologia-foto-2">
+              <source
+                alt={'sito archeologico di san quirico, pozzo'}
+                decoding={'async'}
+                loading={'lazy'}
+                height={'50%'}
+                width={'auto'}
+                srcSet={'/0015.webp'}
+                type="image/webp"
+              />
+              <img
+                alt={'sito archeologico di san quirico, pozzo'}
+                loading={'lazy'}
+                decoding={'async'}
+                src={'/0015.jpg'}
+                height={'50%'}
+                width={'auto'}
+              />
+            </picture>
+          </div>
+          <div id="box3" className="box3">
+            {' '}
+            <picture className="archeologia-foto-1">
+              <source
+                alt={'sito archeologico di san quirico, pozzo'}
+                decoding={'async'}
+                loading={'lazy'}
+                height={'auto'}
+                width={'50%'}
+                srcSet={'/main-image.webp'}
+                type="image/webp"
+              />
+              <img
+                alt={'sito archeologico di san quirico, pozzo'}
+                loading={'lazy'}
+                decoding={'async'}
+                src={'/main-image.jpg'}
+                height={'auto'}
+                width={'50%'}
+              />
+            </picture>
+            <picture className="archeologia-foto-2">
+              <source
+                alt={'sito archeologico di san quirico, pozzo'}
+                decoding={'async'}
+                loading={'lazy'}
+                height={'50%'}
+                width={'auto'}
+                srcSet={'/0015.webp'}
+                type="image/webp"
+              />
+              <img
+                alt={'sito archeologico di san quirico, pozzo'}
+                loading={'lazy'}
+                decoding={'async'}
+                src={'/0015.jpg'}
+                height={'50%'}
+                width={'auto'}
+              />
+            </picture>
+          </div>
         </div>
       </div>
       <div>
         <div className="box-cnt-2">
-          <div id="box3" className="box3-2"></div>
+          <div id="box3" className="box3-2">
+            {' '}
+            <picture className="archeologia-foto-1">
+              <source
+                alt={'sito archeologico di san quirico, pozzo'}
+                decoding={'async'}
+                loading={'lazy'}
+                height={'auto'}
+                width={'50%'}
+                srcSet={'/main-image.webp'}
+                type="image/webp"
+              />
+              <img
+                alt={'sito archeologico di san quirico, pozzo'}
+                loading={'lazy'}
+                decoding={'async'}
+                src={'/main-image.jpg'}
+                height={'auto'}
+                width={'50%'}
+              />
+            </picture>
+            <picture className="archeologia-foto-2">
+              <source
+                alt={'sito archeologico di san quirico, pozzo'}
+                decoding={'async'}
+                loading={'lazy'}
+                height={'50%'}
+                width={'auto'}
+                srcSet={'/0015.webp'}
+                type="image/webp"
+              />
+              <img
+                alt={'sito archeologico di san quirico, pozzo'}
+                loading={'lazy'}
+                decoding={'async'}
+                src={'/0015.jpg'}
+                height={'50%'}
+                width={'auto'}
+              />
+            </picture>
+          </div>
         </div>
       </div>
     </section>

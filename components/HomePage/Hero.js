@@ -19,7 +19,7 @@ function Hero() {
     <header className="home-header-cnt">
       <div className="home-header">
         <h1 className="medium-font titolo bold">
-          San Quirico, il monastero del 1500.
+          San Quirico, monastero del 1500.
         </h1>
         <Link href="/#about">
           <a>
