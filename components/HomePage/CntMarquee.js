@@ -19,7 +19,15 @@ const CntMarquee = () => {
           srcSet={'/0015.webp'}
           type="image/webp"
         />
-        <img
+        <motion.img
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+          variants={{
+            hidden: { opacity: 0 },
+            visible: { opacity: 1 },
+          }}
           alt={'sito archeologico di san quirico, pozzo'}
           loading={'lazy'}
           decoding={'async'}
@@ -38,7 +46,15 @@ const CntMarquee = () => {
           srcSet={'/0015.webp'}
           type="image/webp"
         />
-        <img
+        <motion.img
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+          variants={{
+            hidden: { opacity: 0 },
+            visible: { opacity: 1 },
+          }}
           alt={'sito archeologico di san quirico, pozzo'}
           loading={'lazy'}
           decoding={'async'}

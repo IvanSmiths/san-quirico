@@ -18,9 +18,19 @@ function Hero() {
   return (
     <header className="home-header-cnt">
       <div className="home-header">
-        <h1 className="medium-font titolo bold">
+        <motion.h1
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+          variants={{
+            hidden: { opacity: 0, y: 100 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          className="medium-font titolo bold"
+        >
           San Quirico, monastero del 1500.
-        </h1>
+        </motion.h1>
         <Link href="/#about">
           <a>
             <motion.svg

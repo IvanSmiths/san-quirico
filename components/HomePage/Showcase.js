@@ -17,7 +17,15 @@ const Showcase = () => {
             srcSet={'/main-image.webp'}
             type="image/webp"
           />
-          <img
+          <motion.img
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: { opacity: 1 },
+            }}
             alt={'sito archeologico di san quirico, pozzo'}
             loading={'lazy'}
             decoding={'async'}
@@ -26,40 +34,82 @@ const Showcase = () => {
             width={'900px'}
           />
         </picture>
-        <h2 className="small-font descrizione-foto">+ San Quirico - Pozzo</h2>
+        <motion.h2
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+          variants={{
+            hidden: { opacity: 0 },
+            visible: { opacity: 1 },
+          }}
+          className="small-font descrizione-foto"
+        >
+          + San Quirico - Pozzo
+        </motion.h2>
       </div>
       <div className="foto-san-quirico-1-paragrafo-cnt">
         <motion.div>
           <AnimatePresence>
             <motion.div>
               <motion.div>
-                <h3 className="medium-font">Lorem ipsum dolor sit amet.</h3>
-                <p>
+                <motion.h3
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.7 }}
+                  variants={{
+                    hidden: { opacity: 0, x: -100 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                  className="medium-font"
+                >
+                  Lorem ipsum dolor sit amet.
+                </motion.h3>
+                <motion.p
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.7 }}
+                  variants={{
+                    hidden: { opacity: 0, x: -100 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                >
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Cumque corrupti quaerat dolorem eius odio facilis, maiores
                   fugit voluptate quibusdam iste.
-                </p>
-                <h4
+                </motion.p>
+                <motion.h4
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.7 }}
+                  variants={{
+                    hidden: { opacity: 0, x: -100 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
                   onClick={() => setIsOpen(!isOpen)}
                   className="small-font accordion pointer"
                 >
                   <em className="segno-addizione">{isOpen ? '+++' : '+'}</em>
                   {isOpen ? 'Meno' : 'Più'} informazioni
-                </h4>
+                </motion.h4>
               </motion.div>
             </motion.div>
 
             {isOpen && (
               <motion.div
                 key="answer"
-                initial={{ opacity: 0 }}
+                initial={{ opacity: 0, y: 100 }}
                 animate={{
                   opacity: 1,
+                  y: 0,
                   transition: {
                     duration: 0.5,
                   },
                 }}
-                exit={{ opacity: 0 }}
+                exit={{ opacity: 0, y: 100 }}
                 className="p-2 text-lg text-gray-700 border-l border-b border-gray-300"
               >
                 <p>

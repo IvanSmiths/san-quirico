@@ -17,7 +17,17 @@ const marqueeVariants = {
 
 const Marquee = () => {
   return (
-    <div className="marquee">
+    <motion.div
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      transition={{ duration: 0.7 }}
+      variants={{
+        hidden: { opacity: 0, y: 100 },
+        visible: { opacity: 1, y: 0 },
+      }}
+      className="marquee"
+    >
       <motion.div
         className="track"
         variants={marqueeVariants}
@@ -38,7 +48,7 @@ const Marquee = () => {
           quirico
         </motion.em>
       </motion.div>
-    </div>
+    </motion.div>
   );
 };
 
