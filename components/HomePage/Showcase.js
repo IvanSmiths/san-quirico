@@ -50,83 +50,47 @@ const Showcase = () => {
       </div>
       <div className="foto-san-quirico-1-paragrafo-cnt">
         <motion.div>
-          <AnimatePresence>
+          <motion.div>
             <motion.div>
-              <motion.div>
-                <motion.h3
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.7 }}
-                  variants={{
-                    hidden: { opacity: 0, x: -100 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                  className="medium-font"
-                >
-                  Lorem ipsum dolor sit amet.
-                </motion.h3>
-                <motion.p
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.7 }}
-                  variants={{
-                    hidden: { opacity: 0, x: -100 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                >
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Cumque corrupti quaerat dolorem eius odio facilis, maiores
-                  fugit voluptate quibusdam iste.
-                </motion.p>
-                <motion.h4
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.7 }}
-                  variants={{
-                    hidden: { opacity: 0, x: -100 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                  onClick={() => setIsOpen(!isOpen)}
-                  className="small-font accordion pointer"
-                >
-                  <em className="segno-addizione">{isOpen ? '+++' : '+'}</em>
-                  {isOpen ? 'Meno' : 'Più'} informazioni
-                </motion.h4>
-              </motion.div>
-            </motion.div>
-
-            {isOpen && (
-              <motion.div
-                key="answer"
-                initial={{ opacity: 0, y: 100 }}
-                animate={{
-                  opacity: 1,
-                  y: 0,
-                  transition: {
-                    duration: 0.5,
-                  },
+              <motion.h3
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+                variants={{
+                  hidden: { opacity: 0, x: -100 },
+                  visible: { opacity: 1, x: 0 },
                 }}
-                exit={{ opacity: 0, y: 100 }}
-                className="p-2 text-lg text-gray-700 border-l border-b border-gray-300"
+                className="medium-font"
               >
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer et venenatis elit, id iaculis nisl. Vivamus ut maximus
-                  sem. Pellentesque vitae sapien ultricies, interdum arcu ac,
-                  sagittis quam. Sed ut eros hendrerit, lacinia diam id,
-                  pharetra arcu. Vivamus semper luctus malesuada. Donec euismod
-                  massa id varius volutpat. <br /> <br /> Vivamus porta egestas
-                  mauris, in mollis massa porttitor a. Etiam consectetur
-                  vulputate metus, quis gravida ligula maximus sed. Donec
-                  vulputate leo mauris, a dapibus mauris ultrices sed. Integer
-                  neque odio, tincidunt at egestas nec, tempus et nisl.
-                </p>
-              </motion.div>
-            )}
-          </AnimatePresence>
+                Lorem ipsum dolor sit amet.
+              </motion.h3>
+              <motion.p
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+                variants={{
+                  hidden: { opacity: 0, x: -100 },
+                  visible: { opacity: 1, x: 0 },
+                }}
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Doloremque et ipsum, nostrum dicta incidunt quod tempora tenetur
+                dignissimos harum, hic iste iure? Maxime dolores assumenda optio
+                cum excepturi. <br />
+                <br /> Fugit cupiditate eligendi blanditiis eveniet delectus
+                minima aut eius alias corrupti ex? Quis iure rerum, modi enim
+                fuga vero nisi, consectetur perferendis, repellendus ipsam
+                dolore? Tempora vitae, mollitia eius culpa ratione perferendis.{' '}
+                <br /> <br /> Fugit cupiditate eligendi blanditiis eveniet
+                delectus minima aut eius alias corrupti ex? Quis iure rerum,
+                modi enim fuga vero nisi, consectetur perferendis, repellendus
+                ipsam dolore? Tempora vitae, mollitia eius culpa ratione
+                perferendis.
+              </motion.p>
+            </motion.div>
+          </motion.div>
         </motion.div>
       </div>
     </div>
