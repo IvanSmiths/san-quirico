@@ -18,11 +18,10 @@ function Showcase2() {
           className="medium-font"
         >
           <em>+++</em>
-          <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-          distinctio fugit, dolore, accusantium. <br />
-          <br />
-          Sequi assumenda dolorem adipisci qui nesciunt amet expedita quod
-          beatae unde iusto ut, possimus aspernatur! Dolorem, voluptatum!
+          <br /> La decadenza dell{`'`}edificio sacro fu dovuta probabilmente
+          alla sua localizzazione impervia e disagevole, ma soprattutto all{`'`}
+          importanza assunta dalla viabilità del fondovalle con la fondazione
+          delle {'"'}terre nuove{'"'} sotto la Repubblica fiorentina.
         </motion.p>
       </div>
       <div className="foto-san-quirico-2-img-cnt">

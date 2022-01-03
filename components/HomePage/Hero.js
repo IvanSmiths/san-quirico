@@ -29,7 +29,7 @@ function Hero() {
           }}
           className="medium-font titolo bold"
         >
-          San Quirico, monastero del 1500.
+          La Pieve di San Quirico in Alfiano.
         </motion.h1>
         <Link href="/#about">
           <a>

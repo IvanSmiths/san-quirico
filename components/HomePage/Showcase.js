@@ -63,7 +63,7 @@ const Showcase = () => {
                 }}
                 className="medium-font"
               >
-                Lorem ipsum dolor sit amet.
+                Analisi storica della Pieve di San Quirico
               </motion.h3>
               <motion.p
                 initial="hidden"
@@ -75,20 +75,62 @@ const Showcase = () => {
                   visible: { opacity: 1, x: 0 },
                 }}
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Doloremque et ipsum, nostrum dicta incidunt quod tempora tenetur
-                dignissimos harum, hic iste iure? Maxime dolores assumenda optio
-                cum excepturi. <br />
-                <br /> Fugit cupiditate eligendi blanditiis eveniet delectus
-                minima aut eius alias corrupti ex? Quis iure rerum, modi enim
-                fuga vero nisi, consectetur perferendis, repellendus ipsam
-                dolore? Tempora vitae, mollitia eius culpa ratione perferendis.{' '}
-                <br /> <br /> Fugit cupiditate eligendi blanditiis eveniet
-                delectus minima aut eius alias corrupti ex? Quis iure rerum,
-                modi enim fuga vero nisi, consectetur perferendis, repellendus
-                ipsam dolore? Tempora vitae, mollitia eius culpa ratione
-                perferendis.
+                La pieve è{' '}
+                <strong> documentata per la prima volta nel 1099 </strong> in un
+                atto di donazione di un pezzo di terra posto {'"'}infra plebe
+                sancti kirici sita Alfiano{'"'}: successivamente abbiamo notizia
+                nel 1131 e nuovamente nel 1136 dove viene ricordata più volte
+                anche per le sue sei chiese suffraganee.
               </motion.p>
+              <motion.h4
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+                variants={{
+                  hidden: { opacity: 0, x: -100 },
+                  visible: { opacity: 1, x: 0 },
+                }}
+                onClick={() => setIsOpen(!isOpen)}
+                className="small-font accordion pointer"
+              >
+                <em className="segno-addizione">{isOpen ? '+++' : '+'}</em>
+                {isOpen ? 'Meno' : 'Più'} informazioni sulle chiese
+              </motion.h4>
+
+              {isOpen && (
+                <motion.div
+                  key="answer"
+                  initial={{ opacity: 0, y: 100 }}
+                  animate={{
+                    opacity: 1,
+                    y: 0,
+                    transition: {
+                      duration: 0.5,
+                    },
+                  }}
+                  exit={{ opacity: 0, y: 100 }}
+                  className="p-2 text-lg text-gray-700 border-l border-b border-gray-300"
+                >
+                  <p>
+                    Nel 1278 la pieve di San Quirico supra Arnum aveva{' '}
+                    <strong> quattro chiese suffraganee</strong>, di cui
+                    ricordiamo:
+                    <ul className="lista-chiese-container">
+                      <li>Chiesa di San Silvestro de Polveki (casa Politi);</li>
+                      <li>Chiesa di San Pietro a Peççano (Pezzano);</li>
+                      <li>Chiesa di San Paolo di Pontenano;</li>
+                      <li>Chiesa di Sant’Ilario di Castiglion Fibocchi.</li>
+                    </ul>
+                    Nel 1302 invece le chiese diventano sei, e la Pieve annovera
+                    anche le chiese di:
+                    <ul className="lista-chiese-container">
+                      <li>Sant’Angelo di Ferrallia (Feraglia)</li>
+                      <li>San Giovanni di Gello Viscardi (Biscardo)</li>
+                    </ul>
+                  </p>
+                </motion.div>
+              )}
             </motion.div>
           </motion.div>
         </motion.div>

@@ -212,6 +212,10 @@
   flex-direction: row;
 }
 
+.lista-chiese-container {
+  margin: 2rem 0;
+}
+
 .ruota-paragrafo-cnt {
   width: 50%;
   padding-right: 7%;
