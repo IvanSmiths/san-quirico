@@ -55,8 +55,8 @@ function Ruota() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
             variants={{
-              hidden: { opacity: 0, x: -100 },
-              visible: { opacity: 1, x: 0 },
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
             }}
             onClick={() => setIsOpen(!isOpen)}
             className="small-font accordion pointer"
@@ -200,8 +200,8 @@ function Ruota() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
             variants={{
-              hidden: { opacity: 0, x: -100 },
-              visible: { opacity: 1, x: 0 },
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
             }}
             onClick={() => setIsOpen2(!isOpen2)}
             className="small-font accordion pointer"
@@ -286,8 +286,8 @@ function Ruota() {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
               variants={{
-                hidden: { opacity: 0, x: 100 },
-                visible: { opacity: 1, x: 0 },
+                hidden: { opacity: 0, y: 100 },
+                visible: { opacity: 1, y: 0 },
               }}
               htmlFor="name"
               className="small-font"
@@ -315,8 +315,8 @@ function Ruota() {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
               variants={{
-                hidden: { opacity: 0, x: 100 },
-                visible: { opacity: 1, x: 0 },
+                hidden: { opacity: 0, y: 100 },
+                visible: { opacity: 1, y: 0 },
               }}
               htmlFor="object"
               className="small-font"
@@ -344,8 +344,8 @@ function Ruota() {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
               variants={{
-                hidden: { opacity: 0, x: 100 },
-                visible: { opacity: 1, x: 0 },
+                hidden: { opacity: 0, y: 100 },
+                visible: { opacity: 1, y: 0 },
               }}
               htmlFor="email"
               className="small-font"
@@ -373,8 +373,8 @@ function Ruota() {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
               variants={{
-                hidden: { opacity: 0, x: 100 },
-                visible: { opacity: 1, x: 0 },
+                hidden: { opacity: 0, y: 100 },
+                visible: { opacity: 1, y: 0 },
               }}
               className="small-font"
               htmlFor="message"
@@ -386,8 +386,8 @@ function Ruota() {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
               variants={{
-                hidden: { opacity: 0, x: 100 },
-                visible: { opacity: 1, x: 0 },
+                hidden: { opacity: 0, y: 100 },
+                visible: { opacity: 1, y: 0 },
               }}
               id="message"
               name="message"
@@ -400,10 +400,10 @@ function Ruota() {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
               variants={{
-                hidden: { opacity: 0, x: 100 },
-                visible: { opacity: 1, x: 0 },
+                hidden: { opacity: 0, y: 100 },
+                visible: { opacity: 1, y: 0 },
               }}
-              className="btn pointer"
+              className="btn small-font pointer"
               type="submit"
             >
               Invia

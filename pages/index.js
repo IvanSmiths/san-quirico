@@ -4,6 +4,7 @@ import CntMarquee from '../components/HomePage/CntMarquee';
 import Gallery from '../components/HomePage/Gallery';
 
 import Hero from '../components/HomePage/Hero';
+import Paragraph from '../components/HomePage/Paragraph';
 import Ruota from '../components/HomePage/Ruota';
 import Showcase from '../components/HomePage/Showcase';
 import Showcase2 from '../components/HomePage/Showcase2';
@@ -52,6 +53,7 @@ export default function Home() {
       <Hero />
       <About />
       <CntMarquee />
+      <Paragraph />
       <Showcase />
       <Showcase2 />
       <Ruota />

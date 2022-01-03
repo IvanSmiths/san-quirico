@@ -285,6 +285,7 @@ img {
 .form textarea {
   background-color: var(--color-text-sub);
   border: none;
+  margin-bottom: 1rem;
   transition: 0.4s ease-in-out;
 }
 
@@ -417,4 +418,36 @@ img {
   position: absolute;
   top: 10%;
   left: 20%;
+}
+
+.san-quirico-descrizione-cnt {
+  display: flex;
+  margin-top: var(--marginSection);
+  flex-direction: row;
+}
+
+.san-quirico-descrizione-1 {
+  width: 33%;
+  background-color: aqua;
+}
+
+.san-quirico-descrizione-2 {
+  padding: 0 3rem;
+  text-align: left;
+  width: 43%;
+}
+
+.san-quirico-descrizione-2 p {
+  margin-top: 2rem;
+}
+
+.san-quirico-descrizione-2 h3 {
+  margin-top: 2rem;
+}
+
+.san-quirico-descrizione-3 {
+  background-color: aqua;
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
 }

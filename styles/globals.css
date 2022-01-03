@@ -44,19 +44,19 @@ a {
 
 body,
 body[data-theme='light'] {
-  --color-bg-primary: #cccccc;
-  --color-text-primary: #060606;
+  --color-bg-primary: #d8d4ce;
+  --color-text-primary: #201c20;
   --color-text-sub: #eeeeee;
-  --color-text-inverse: #cccccc;
+  --color-text-inverse: #e2ddd6;
   --color-bg-inverse: #060606;
 }
 
 body[data-theme='dark'] {
-  --color-bg-primary: #060606;
-  --color-text-primary: #cccccc;
-  --color-text-sub: #1b1b1b;
-  --color-text-inverse: #060606;
-  --color-bg-inverse: #cccccc;
+  --color-bg-primary: #171411;
+  --color-text-primary: #e2ddd6;
+  --color-text-sub: #2a2a2a;
+  --color-text-inverse: #201c20;
+  --color-bg-inverse: #e2ddd6;
 }
 
 body {
@@ -139,8 +139,25 @@ li {
   color: var(--color-text-primary);
 }
 
+li::marker {
+  font-weight: 600;
+}
+
 textarea {
   resize: vertical;
+}
+
+.btn {
+  background-color: var(--main-color);
+  color: #000000;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: none;
+  font-weight: 600;
+}
+
+em {
+  color: var(--main-color);
 }
 
 .bold {
@@ -149,15 +166,6 @@ textarea {
 
 .pointer {
   cursor: pointer;
-}
-
-.btn {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: none;
-  border: 1px solid var(--main-color);
-  color: black;
-  font-weight: 400;
 }
 
 @import 'home.css';

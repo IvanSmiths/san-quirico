@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const Showcase = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -116,19 +116,19 @@ const Showcase = () => {
                     Nel 1278 la pieve di San Quirico supra Arnum aveva{' '}
                     <strong> quattro chiese suffraganee</strong>, di cui
                     ricordiamo:
-                    <ul className="lista-chiese-container">
-                      <li>Chiesa di San Silvestro de Polveki (casa Politi);</li>
-                      <li>Chiesa di San Pietro a Peççano (Pezzano);</li>
-                      <li>Chiesa di San Paolo di Pontenano;</li>
-                      <li>Chiesa di Sant’Ilario di Castiglion Fibocchi.</li>
-                    </ul>
-                    Nel 1302 invece le chiese diventano sei, e la Pieve annovera
-                    anche le chiese di:
-                    <ul className="lista-chiese-container">
-                      <li>Sant’Angelo di Ferrallia (Feraglia)</li>
-                      <li>San Giovanni di Gello Viscardi (Biscardo)</li>
-                    </ul>
                   </p>
+                  <ol className="lista-chiese-container">
+                    <li>Chiesa di San Silvestro de Polveki (casa Politi);</li>
+                    <li>Chiesa di San Pietro a Peççano (Pezzano);</li>
+                    <li>Chiesa di San Paolo di Pontenano;</li>
+                    <li>Chiesa di Sant’Ilario di Castiglion Fibocchi.</li>
+                  </ol>
+                  Nel 1302 invece le chiese diventano sei, e la Pieve annovera
+                  anche le chiese di:
+                  <ol className="lista-chiese-container">
+                    <li>Sant’Angelo di Ferrallia (Feraglia)</li>
+                    <li>San Giovanni di Gello Viscardi (Biscardo)</li>
+                  </ol>
                 </motion.div>
               )}
             </motion.div>
