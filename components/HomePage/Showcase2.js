@@ -32,7 +32,7 @@ function Showcase2() {
             loading={'lazy'}
             height={'700px'}
             width={'100%'}
-            srcSet={'/0015.webp'}
+            srcSet={'/archeologia-reperti(20).webp'}
             type="image/webp"
           />
           <motion.img
@@ -47,7 +47,7 @@ function Showcase2() {
             alt={'sito archeologico di san quirico, pozzo'}
             loading={'lazy'}
             decoding={'async'}
-            src={'/0015.jpg'}
+            src={'/archeologia-reperti(20).jpg'}
             height={'700px'}
             width={'100%'}
           />

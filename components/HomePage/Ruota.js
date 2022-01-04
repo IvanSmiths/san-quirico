@@ -223,7 +223,6 @@ function Ruota() {
               },
             }}
             exit={{ opacity: 0, y: 100 }}
-            className="p-2 text-lg text-gray-700 border-l border-b border-gray-300"
           >
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -240,7 +239,7 @@ function Ruota() {
           </motion.div>
         )}
         <div className="form-cnt">
-          <motion.h6
+          <motion.h5
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -252,7 +251,7 @@ function Ruota() {
             className="medium-font highlight-main"
           >
             Can you help?
-          </motion.h6>
+          </motion.h5>
           <form action="https://formsubmit.co/" method="POST" className="form">
             <motion.input
               initial="hidden"
@@ -278,6 +277,7 @@ function Ruota() {
               }}
               type="hidden"
               name="_subject"
+              className="small-font"
               value="San Quirico Archeologia"
             />
             <motion.label
@@ -307,6 +307,7 @@ function Ruota() {
               id="name"
               name="name"
               minLength="3"
+              className="small-font"
               required
             />
             <motion.label
@@ -335,7 +336,8 @@ function Ruota() {
               type="text"
               id="object"
               name="object"
-              minLength="4"
+              minLength="3"
+              className="small-font"
               required
             />
             <motion.label
@@ -362,6 +364,7 @@ function Ruota() {
                 visible: { opacity: 1, y: 0 },
               }}
               type="email"
+              className="small-font"
               id="email"
               name="email"
               minLength="6"
@@ -390,6 +393,7 @@ function Ruota() {
                 visible: { opacity: 1, y: 0 },
               }}
               id="message"
+              className="small-font"
               name="message"
               minLength="10"
               cols="30"

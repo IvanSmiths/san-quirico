@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <main id="about" className="main-cnt flex-center">
+    <div id="about" className="main-cnt flex-center">
       <div className="test-cnt">
         <motion.p
           initial="hidden"
@@ -35,14 +35,14 @@ const About = () => {
               loading={'lazy'}
               height={'100%'}
               width={'160px'}
-              srcSet={'/main-image.webp'}
+              srcSet={'/san-quirico-ristrutturazione-3.webp'}
               type="image/webp"
             />
             <img
               alt={'sito archeologico di san quirico, pozzo'}
               loading={'lazy'}
               decoding={'async'}
-              src={'/main-image.jpg'}
+              src={'/san-quirico-ristrutturazione-3.jpg'}
               height={'100%'}
               width={'160px'}
             />
@@ -65,14 +65,14 @@ const About = () => {
               loading={'lazy'}
               height={'100%'}
               width={'160px'}
-              srcSet={'/main-image.webp'}
+              srcSet={'/san-quirico-ristrutturazione-2.webp'}
               type="image/webp"
             />
             <img
               alt={'sito archeologico di san quirico, pozzo'}
               loading={'lazy'}
               decoding={'async'}
-              src={'/main-image.jpg'}
+              src={'/san-quirico-ristrutturazione-2.jpg'}
               height={'100%'}
               width={'160px'}
             />
@@ -95,14 +95,14 @@ const About = () => {
               loading={'lazy'}
               height={'100%'}
               width={'160px'}
-              srcSet={'/main-image.webp'}
+              srcSet={'san-quirico-ristrutturazione.webp'}
               type="image/webp"
             />
             <img
               alt={'sito archeologico di san quirico, pozzo'}
               loading={'lazy'}
               decoding={'async'}
-              src={'/main-image.jpg'}
+              src={'san-quirico-ristrutturazione.jpg'}
               height={'100%'}
               width={'160px'}
             />
@@ -125,14 +125,14 @@ const About = () => {
               loading={'lazy'}
               height={'100%'}
               width={'160px'}
-              srcSet={'/main-image.webp'}
+              srcSet={'/resti-scavi-archeologici-3.webp'}
               type="image/webp"
             />
             <img
               alt={'sito archeologico di san quirico, pozzo'}
               loading={'lazy'}
               decoding={'async'}
-              src={'/main-image.jpg'}
+              src={'/resti-scavi-archeologici-3.jpg'}
               height={'100%'}
               width={'160px'}
             />
@@ -155,14 +155,14 @@ const About = () => {
               loading={'lazy'}
               height={'100%'}
               width={'160px'}
-              srcSet={'/main-image.webp'}
+              srcSet={'/croce-altorilievo.webp'}
               type="image/webp"
             />
             <img
               alt={'sito archeologico di san quirico, pozzo'}
               loading={'lazy'}
               decoding={'async'}
-              src={'/main-image.jpg'}
+              src={'/croce-altorilievo.jpg'}
               height={'100%'}
               width={'160px'}
             />
@@ -185,14 +185,14 @@ const About = () => {
               loading={'lazy'}
               height={'100%'}
               width={'160px'}
-              srcSet={'/main-image.webp'}
+              srcSet={'/colonna.webp'}
               type="image/webp"
             />
             <img
               alt={'sito archeologico di san quirico, pozzo'}
               loading={'lazy'}
               decoding={'async'}
-              src={'/main-image.jpg'}
+              src={'/colonna.jpg'}
               height={'100%'}
               width={'160px'}
             />
@@ -215,14 +215,14 @@ const About = () => {
               loading={'lazy'}
               height={'100%'}
               width={'160px'}
-              srcSet={'/main-image.webp'}
+              srcSet={'/san-quirico-mura-5.webp'}
               type="image/webp"
             />
             <img
               alt={'sito archeologico di san quirico, pozzo'}
               loading={'lazy'}
               decoding={'async'}
-              src={'/main-image.jpg'}
+              src={'/san-quirico-mura-5.jpg'}
               height={'100%'}
               width={'160px'}
             />
@@ -245,14 +245,14 @@ const About = () => {
               loading={'lazy'}
               height={'100%'}
               width={'160px'}
-              srcSet={'/main-image.webp'}
+              srcSet={'/san-quirico-mura-4.webp'}
               type="image/webp"
             />
             <img
               alt={'sito archeologico di san quirico, pozzo'}
               loading={'lazy'}
               decoding={'async'}
-              src={'/main-image.jpg'}
+              src={'/san-quirico-mura-4.jpg'}
               height={'100%'}
               width={'160px'}
             />
@@ -275,14 +275,14 @@ const About = () => {
               loading={'lazy'}
               height={'100%'}
               width={'160px'}
-              srcSet={'/main-image.webp'}
+              srcSet={'/san-quirico-mura-2.webp'}
               type="image/webp"
             />
             <img
               alt={'sito archeologico di san quirico, pozzo'}
               loading={'lazy'}
               decoding={'async'}
-              src={'/main-image.jpg'}
+              src={'/san-quirico-mura-2.jpg'}
               height={'100%'}
               width={'160px'}
             />
@@ -305,14 +305,14 @@ const About = () => {
               loading={'lazy'}
               height={'100%'}
               width={'160px'}
-              srcSet={'/main-image.webp'}
+              srcSet={'/san-quirico-mura-3.webp'}
               type="image/webp"
             />
             <img
               alt={'sito archeologico di san quirico, pozzo'}
               loading={'lazy'}
               decoding={'async'}
-              src={'/main-image.jpg'}
+              src={'/san-quirico-mura-3.jpg'}
               height={'100%'}
               width={'160px'}
             />
@@ -320,7 +320,7 @@ const About = () => {
           dal 2013 per mantenerne il decoro.
         </motion.p>
       </div>
-    </main>
+    </div>
   );
 };
 

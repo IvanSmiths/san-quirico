@@ -67,12 +67,13 @@
 .main-cnt p {
   display: inline;
   margin: 1rem;
+  line-height: 7rem;
 }
 
 .main-paragraph-image img {
-  width: 90px;
-  height: auto;
-  margin-bottom: -1rem;
+  width: 96px;
+  height: 90px;
+  margin-bottom: -10px;
 }
 
 .main-paragraph-image picture {
@@ -268,6 +269,7 @@ img {
 }
 
 .form input {
+  color: var(--color-text-primary);
   background-color: var(--color-text-sub);
   border: none;
   padding: 0.6rem 0.6rem;
@@ -283,8 +285,12 @@ img {
 }
 
 .form textarea {
+  padding: 0.6rem 0.6rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
   background-color: var(--color-text-sub);
   border: none;
+  color: var(--color-text-primary);
   margin-bottom: 1rem;
   transition: 0.4s ease-in-out;
 }

@@ -16,7 +16,7 @@ const CntMarquee = () => {
           loading={'lazy'}
           height={'300px'}
           width={'200px'}
-          srcSet={'/0015.webp'}
+          srcSet={'/san-quirico-chiave-di-volta.jpg'}
           type="image/webp"
         />
         <motion.img
@@ -31,7 +31,7 @@ const CntMarquee = () => {
           alt={'sito archeologico di san quirico, pozzo'}
           loading={'lazy'}
           decoding={'async'}
-          src={'/0015.jpg'}
+          src={'/san-quirico-chiave-di-volta.jpg'}
           height={'300px'}
           width={'200px'}
         />
@@ -43,7 +43,7 @@ const CntMarquee = () => {
           loading={'lazy'}
           height={'300px'}
           width={'200px'}
-          srcSet={'/0015.webp'}
+          srcSet={'/san-quirico-mura.webp'}
           type="image/webp"
         />
         <motion.img
@@ -58,7 +58,7 @@ const CntMarquee = () => {
           alt={'sito archeologico di san quirico, pozzo'}
           loading={'lazy'}
           decoding={'async'}
-          src={'/0015.jpg'}
+          src={'/san-quirico-mura.jpg'}
           height={'300px'}
           width={'200px'}
         />
