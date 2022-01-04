@@ -428,7 +428,6 @@ img {
 
 .san-quirico-descrizione-1 {
   width: 33%;
-  background-color: aqua;
 }
 
 .san-quirico-descrizione-2 {
@@ -446,8 +445,28 @@ img {
 }
 
 .san-quirico-descrizione-3 {
-  background-color: aqua;
   width: 33%;
-  display: flex;
-  justify-content: flex-end;
+}
+
+.immagine-paragrafo {
+  height: auto;
+  opacity: 0.6;
+}
+
+.immagine-paragrafo img {
+  height: auto;
+  width: 90%;
+  margin-top: 2rem;
+}
+
+.immagine-paragrafo2 {
+  height: auto;
+  width: 60%;
+}
+
+.immagine-paragrafo2 img {
+  height: auto;
+  width: 60%;
+  margin-left: 2vw;
+  margin-top: 2rem;
 }

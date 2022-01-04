@@ -287,7 +287,7 @@ const About = () => {
               width={'160px'}
             />
           </motion.picture>{' '}
-          da parte di SQA{' '}
+          da parte di San Quirico Archeologia{' '}
           <motion.picture
             initial="hidden"
             whileInView="visible"
