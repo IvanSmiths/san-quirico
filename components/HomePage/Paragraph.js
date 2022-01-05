@@ -27,6 +27,33 @@ const Paragraph = () => {
             alt={'sito archeologico di san quirico, pozzo'}
             loading={'lazy'}
             decoding={'async'}
+            src={'/san-quirico-mura-5.png'}
+            height={'300px'}
+            width={'100%'}
+          />
+        </picture>
+        <picture className="immagine-paragrafo immagine-paragrafo2">
+          <source
+            alt={'sito archeologico di san quirico, pozzo'}
+            decoding={'async'}
+            loading={'lazy'}
+            height={'300px'}
+            width={'100%'}
+            srcSet={'/san-quirico-mura-5.webp'}
+            type="image/webp"
+          />
+          <motion.img
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: { opacity: 1 },
+            }}
+            alt={'sito archeologico di san quirico, pozzo'}
+            loading={'lazy'}
+            decoding={'async'}
             src={'/main-image.jpg'}
             height={'300px'}
             width={'100%'}
@@ -39,7 +66,7 @@ const Paragraph = () => {
             loading={'lazy'}
             height={'300px'}
             width={'100%'}
-            srcSet={'/main-image.webp'}
+            srcSet={'/san-quirico-mura-5.webp'}
             type="image/webp"
           />
           <motion.img
@@ -228,14 +255,14 @@ const Paragraph = () => {
       </div>
       <div className="san-quirico-descrizione-3">
         {' '}
-        <picture className="immagine-paragrafo">
+        <picture className="immagine-paragrafo immagine-paragrafo-3">
           <source
             alt={'sito archeologico di san quirico, pozzo'}
             decoding={'async'}
             loading={'lazy'}
             height={'300px'}
             width={'100%'}
-            srcSet={'/main-image.webp'}
+            srcSet={'/san-quirico-mura-2.webp'}
             type="image/webp"
           />
           <motion.img
@@ -250,19 +277,19 @@ const Paragraph = () => {
             alt={'sito archeologico di san quirico, pozzo'}
             loading={'lazy'}
             decoding={'async'}
-            src={'/main-image.jpg'}
+            src={'/san-quirico-mura-2.png'}
             height={'300px'}
             width={'100%'}
           />
         </picture>
-        <picture className="immagine-paragrafo immagine-paragrafo-margine">
+        <picture className="immagine-paragrafo immagine-paragrafo-4">
           <source
             alt={'sito archeologico di san quirico, pozzo'}
             decoding={'async'}
             loading={'lazy'}
             height={'300px'}
             width={'100%'}
-            srcSet={'/main-image.webp'}
+            srcSet={'/san-quirico-mura-3.webp'}
             type="image/webp"
           />
           <motion.img
@@ -277,7 +304,34 @@ const Paragraph = () => {
             alt={'sito archeologico di san quirico, pozzo'}
             loading={'lazy'}
             decoding={'async'}
-            src={'/main-image.jpg'}
+            src={'/san-quirico-mura-3.png'}
+            height={'300px'}
+            width={'100%'}
+          />
+        </picture>
+        <picture className="immagine-paragrafo immagine-paragrafo-5">
+          <source
+            alt={'sito archeologico di san quirico, pozzo'}
+            decoding={'async'}
+            loading={'lazy'}
+            height={'300px'}
+            width={'100%'}
+            srcSet={'/san-quirico-mura-6.webp'}
+            type="image/webp"
+          />
+          <motion.img
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            variants={{
+              hidden: { opacity: 0 },
+              visible: { opacity: 1 },
+            }}
+            alt={'sito archeologico di san quirico, pozzo'}
+            loading={'lazy'}
+            decoding={'async'}
+            src={'/san-quirico-mura-6.jpg'}
             height={'300px'}
             width={'100%'}
           />

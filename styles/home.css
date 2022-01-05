@@ -177,7 +177,7 @@
 }
 
 .foto-san-quirico-1-paragrafo-cnt {
-  padding-right: 5vw;
+  padding-right: var(--marginLayout);
   padding-left: 5vw;
   text-align: right;
   width: 40%;
@@ -203,7 +203,7 @@
 }
 
 .foto-san-quirico-2-paragrafo-cnt {
-  padding: 0 6vw;
+  padding: 0 var(--marginLayout);
   width: 60%;
 }
 
@@ -219,7 +219,7 @@
 
 .ruota-paragrafo-cnt {
   width: 50%;
-  padding-right: 7%;
+  padding-right: var(--marginLayout);
 }
 
 .ruota-paragrafo-cnt p,
@@ -315,20 +315,21 @@ img {
 }
 
 .archeologia-descrizione {
-  padding: 1rem;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
 .archeologia-descrizione h2 {
   width: 60%;
+  padding-left: var(--marginLayout);
 }
 
 .archeologia-descrizione p {
   width: 40%;
   text-align: right;
-  padding-right: 6.5%;
+  padding-right: var(--marginLayout);
 }
 
 .box-fixed {
@@ -433,13 +434,14 @@ img {
 }
 
 .san-quirico-descrizione-1 {
-  width: 33%;
+  width: 20%;
 }
 
 .san-quirico-descrizione-2 {
-  padding: 0 3rem;
+  padding: 0 6rem;
+  padding-left: 8rem;
   text-align: left;
-  width: 43%;
+  width: 55%;
 }
 
 .san-quirico-descrizione-2 p {
@@ -451,28 +453,38 @@ img {
 }
 
 .san-quirico-descrizione-3 {
-  width: 33%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  margin-left: auto;
 }
 
 .immagine-paragrafo {
   height: auto;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .immagine-paragrafo img {
   height: auto;
-  width: 90%;
+  width: 100%;
   margin-top: 2rem;
-}
-
-.immagine-paragrafo2 {
-  height: auto;
-  width: 60%;
 }
 
 .immagine-paragrafo2 img {
   height: auto;
-  width: 60%;
-  margin-left: 2vw;
-  margin-top: 2rem;
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.immagine-paragrafo-3 {
+  margin-top: 3rem;
+}
+
+.immagine-paragrafo-4 {
+  margin-top: 0rem;
+}
+
+.immagine-paragrafo-5 {
+  margin-top: 5rem;
 }
