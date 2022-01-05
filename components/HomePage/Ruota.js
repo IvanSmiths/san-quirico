@@ -30,7 +30,7 @@ function Ruota() {
           }}
           className="medium-font"
         >
-          Lorem ipsum dolor sit
+          Analisi dei reperti
         </motion.h3>
         <motion.p
           initial="hidden"
@@ -42,11 +42,16 @@ function Ruota() {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos libero
-          culpa saepe recusandae ipsa, labore non facere dolor explicabo iusto
-          harum eveniet, quaerat incidunt accusamus itaque. Accusamus neque
-          architecto, a molestias hic rerum iusto soluta iste, nam, voluptate
-          qui cum.
+          Il sondaggio condotto nell{`'`}anno 2013 all{`'`}interno del contesto
+          della Pieve di San Quirico in Alfiano nel comune di Castiglion
+          Fibocchi, ha restituito una notevole quantità di reperti archeologici
+          di vario pregio e interesse scientifico. Durante l{`'`}asportazione
+          dello strato di Humus detriti e crollo (US 1001) sono venuti alla luce
+          molti oggetti di arredo religioso in materiale lapideo. <br />
+          <br />
+          Per alcuni di questi è stato possibile riconoscerne lo stile e quindi
+          attribuirne una cronologia, per altri invece saranno necessari studi
+          più mirati ed approfonditi.
         </motion.p>
         <motion.div>
           <motion.h4
@@ -132,9 +137,8 @@ function Ruota() {
           }}
           className="medium-font"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam amet
-          quos impedit eaque perspiciatis illum labore officiis reiciendis, unde
-          quis.
+          Il primo oggetto rinvenuto è una porzione di transenna di forma
+          trapezoidale con elementi decorativi fitoformi, in pietra arenaria.
         </motion.h4>
         <picture className="cover">
           <source
@@ -385,6 +389,7 @@ function Ruota() {
               Messaggio
             </motion.label>
             <motion.textarea
+              initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
