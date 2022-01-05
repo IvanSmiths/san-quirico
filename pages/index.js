@@ -57,8 +57,8 @@ export default function Home() {
       <Showcase />
       <Showcase2 />
       <Ruota />
+
       <Showcase3 />
-      <Gallery />
       <Showcase />
     </>
   );

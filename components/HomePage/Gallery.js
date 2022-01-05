@@ -24,7 +24,6 @@ function Gallery() {
         scrollTrigger: {
           trigger: element.querySelector('#box'),
           start: 'top top',
-          markers: true,
           end: 'bottom top',
           ease: 'power1',
           scrub: true,
