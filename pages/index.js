@@ -9,6 +9,7 @@ import Ruota from '../components/HomePage/Ruota';
 import Showcase from '../components/HomePage/Showcase';
 import Showcase2 from '../components/HomePage/Showcase2';
 import Showcase3 from '../components/HomePage/Showcase3';
+import Showcase4 from '../components/HomePage/Showcase4';
 
 export default function Home() {
   const schemaData = {
@@ -53,11 +54,10 @@ export default function Home() {
       <Hero />
       <About />
       <CntMarquee />
-      <Paragraph />
+      <Showcase4 />
       <Showcase />
       <Showcase2 />
       <Ruota />
-
       <Showcase3 />
       <Showcase />
     </>

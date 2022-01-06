@@ -134,7 +134,8 @@ h5,
 h6,
 p,
 a,
-li {
+li,
+figcaption {
   font-weight: 400;
   color: var(--color-text-primary);
 }

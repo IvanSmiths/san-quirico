@@ -488,3 +488,38 @@ img {
 .immagine-paragrafo-5 {
   margin-top: 5rem;
 }
+
+.foto-4 {
+  width: 50%;
+}
+
+.foto-4 h4 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.foto-4-cnt {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: var(--marginLayout);
+  margin-right: var(--marginLayout);
+}
+
+.foto-archeologica {
+  margin-right: var(--marginLayout);
+}
+
+.foto-4-archeologia {
+  width: 45%;
+}
+
+.foto-archeologica-2 {
+  margin-left: auto;
+}
+
+.foto-4-reperti img {
+  width: 100%;
+  height: auto;
+}
