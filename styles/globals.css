@@ -44,8 +44,8 @@ a {
 
 body,
 body[data-theme='light'] {
-  --color-bg-primary: #d8d4ce;
-  --color-text-primary: #201c20;
+  --color-bg-primary: #d4cfc7;
+  --color-text-primary: #181618;
   --color-text-sub: #eeeeee;
   --color-text-inverse: #e2ddd6;
   --color-bg-inverse: #060606;
@@ -53,7 +53,7 @@ body[data-theme='light'] {
 
 body[data-theme='dark'] {
   --color-bg-primary: #171411;
-  --color-text-primary: #e2ddd6;
+  --color-text-primary: #dbd2c4;
   --color-text-sub: #2a2a2a;
   --color-text-inverse: #201c20;
   --color-bg-inverse: #e2ddd6;
