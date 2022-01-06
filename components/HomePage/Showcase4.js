@@ -171,6 +171,9 @@ function Showcase4() {
         </div>
         <div className="foto-san-quirico-2-img-cnt foto-archeologica">
           <picture>
+            <figcaption className="small-font caption-scheletro">
+              <em>+ </em>ritrovamento di uno scheletro
+            </figcaption>
             <source
               alt={'sito archeologico di san quirico, pozzo'}
               decoding={'async'}
@@ -203,7 +206,7 @@ function Showcase4() {
         <div className="foto-4-archeologia">
           <picture className="foto-4-reperti">
             <figcaption className="small-font">
-              <em>+ </em>mura del 1200
+              <em>+ </em>mura esterne
             </figcaption>
             <source
               alt={'sito archeologico di san quirico, pozzo'}
@@ -235,7 +238,7 @@ function Showcase4() {
         <div className="foto-4-archeologia foto-archeologica-2">
           <picture className="foto-4-reperti">
             <figcaption className="small-font">
-              <em>+ </em>mura del 1200
+              <em>+ </em>reperto di uno scheletro
             </figcaption>
             <source
               alt={'sito archeologico di san quirico, pozzo'}
@@ -243,7 +246,7 @@ function Showcase4() {
               loading={'lazy'}
               height={'700px'}
               width={'400px'}
-              srcSet={'/san-quirico-mura-5.webp'}
+              srcSet={'/san-quirico-scheletro.webp'}
               type="image/webp"
             />
             <motion.img
@@ -258,7 +261,7 @@ function Showcase4() {
               alt={'sito archeologico di san quirico, pozzo'}
               loading={'lazy'}
               decoding={'async'}
-              src={'/san-quirico-mura-5.jpg'}
+              src={'/san-quirico-scheletro.jpg'}
               height={'700px'}
               width={'400px'}
             />

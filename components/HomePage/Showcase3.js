@@ -43,7 +43,7 @@ const Showcase3 = () => {
           loading={'lazy'}
           height={'100%'}
           width={'100%'}
-          srcSet={'/main-image.webp'}
+          srcSet={'/san-quirico-notte-2.webp'}
           type="image/webp"
         />
         <motion.img
@@ -58,7 +58,7 @@ const Showcase3 = () => {
           alt={'sito archeologico di san quirico, pozzo'}
           loading={'lazy'}
           decoding={'async'}
-          src={'/main-image.jpg'}
+          src={'/san-quirico-notte-2.jpg'}
           height={'100%'}
           width={'100%'}
         />

@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import FakeFooter from '../components/FakeFooter';
 import About from '../components/HomePage/About';
 import CntMarquee from '../components/HomePage/CntMarquee';
 import Gallery from '../components/HomePage/Gallery';
@@ -60,6 +61,7 @@ export default function Home() {
       <Ruota />
       <Showcase3 />
       <Showcase />
+      <FakeFooter />
     </>
   );
 }

@@ -106,7 +106,7 @@ function Ruota() {
             loading={'lazy'}
             height={'auto'}
             width={'100%'}
-            srcSet={'/main-image.webp'}
+            srcSet={'/colonna-2.webp'}
             type="image/webp"
           />
           <motion.img
@@ -121,7 +121,7 @@ function Ruota() {
             alt={'sito archeologico di san quirico, pozzo'}
             loading={'lazy'}
             decoding={'async'}
-            src={'/main-image.jpg'}
+            src={'/colonna-2.jpg'}
             height={'auto'}
             width={'100%'}
           />
@@ -147,7 +147,7 @@ function Ruota() {
             loading={'lazy'}
             height={'auto'}
             width={'100%'}
-            srcSet={'/main-image.webp'}
+            srcSet={'/vaso.webp'}
             type="image/webp"
           />
           <motion.img
@@ -162,7 +162,7 @@ function Ruota() {
             alt={'sito archeologico di san quirico, pozzo'}
             loading={'lazy'}
             decoding={'async'}
-            src={'/main-image.jpg'}
+            src={'/croce-altorilievo-3.jpg'}
             height={'auto'}
             width={'100%'}
           />
@@ -178,7 +178,7 @@ function Ruota() {
           }}
           className="medium-font"
         >
-          Lorem ipsum dolor sit amet
+          Reperti e teorie
         </motion.h5>
         <motion.p
           initial="hidden"
@@ -190,12 +190,14 @@ function Ruota() {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquid
-          illo eum, similique distinctio minima adipisci! Quidem delectus ipsa
-          exercitationem iste natus ab nemo modi inventore tenetur expedita.{' '}
-          <br /> <br /> Ut ea culpa eveniet doloremque eum quibusdam voluptatem
-          minus corrupti molestias facere fugiat voluptatum natus similique
-          nulla repudiandae, sed quod commodi! Rem.
+          L{`'`}esposizione ad agenti atmosferici e il tempo trascorso hanno
+          cancellato parte dei basso rilievi presenti nell{`'`}oggetto in
+          questione: è stato comunque possibile individuare le linee guida
+          principali che contraddistinguono la corrente artistico-architettonica
+          del periodo di appartenenza dell{`'`}elemento, riscontrando dei
+          confronti in oggetti simili rinvenuti nella zona di Cortona. Si tratta
+          di un frammento di fenestella o transenna ritrovata all{`'`}interno
+          della ex chiesa del monastero di San Vincenzo a Cortona.
         </motion.p>
         <motion.div>
           <motion.h4
@@ -214,6 +216,29 @@ function Ruota() {
             {isOpen2 ? 'Meno' : 'Più'} informazioni
           </motion.h4>
         </motion.div>
+        <p className="san-quirico-archeologia-bio">
+          {' '}
+          Nella stessa unità stratigrafica è stato rinvenuto un frammento di
+          piccole dimensioni di transenna con decorazioni fitoformi, non
+          dissimile a quello sopracitata: anche in questo caso è stato possibile
+          riscontare alcune somiglianze con un frammento proveniente dalla
+          stessa ex chiesa di San Vincenzo a Cortona. I collegamenti con il
+          territorio di Cortona sono ben riscontrabili anche dal ritrovamento di
+          una colonnetta con capitello di ottimo pregio. Si tratta di un
+          elemento architettonico da interno e puramente decorativo vista le
+          dimensioni: è composto da una colonna quadrangolare e un capitello con
+          richiami a decorazioni floreali. <br /> <br /> Anche in questo caso il
+          tempo e il riutilizzo da parte dell{`'`}uomo hanno cancellato alcuni
+          tratti dell{`'`}oggetto, ma è stato comunque possibile eseguire un
+          confronto con un elemento simile rinvenuto nella chiesa di Sant
+          {`'`}Angelo a Metelliano nel territorio di Cortona. Come già accennato
+          nei paragrafi precedenti, le fonti documentarie in nostro possesso
+          collocano la Pieve di San Quirico intorno al XII secolo, ma i
+          confronti degli oggetti rinvenuti con reperti del territorio di
+          Cortona permettono di fornire una datazione antecedente al XII: gli
+          elementi architettonici di Cortona, sono infatti datati alla fine del
+          VIII e inizi IX secolo.
+        </p>
 
         {isOpen2 && (
           <motion.div
@@ -229,21 +254,59 @@ function Ruota() {
             exit={{ opacity: 0, y: 100 }}
           >
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              et venenatis elit, id iaculis nisl. Vivamus ut maximus sem.
-              Pellentesque vitae sapien ultricies, interdum arcu ac, sagittis
-              quam. Sed ut eros hendrerit, lacinia diam id, pharetra arcu.
-              Vivamus semper luctus malesuada. Donec euismod massa id varius
-              volutpat. <br /> <br /> Vivamus porta egestas mauris, in mollis
-              massa porttitor a. Etiam consectetur vulputate metus, quis gravida
-              ligula maximus sed. Donec vulputate leo mauris, a dapibus mauris
-              ultrices sed. Integer neque odio, tincidunt at egestas nec, tempus
-              et nisl.
+              Nella stessa unità stratigrafica è stato rinvenuto un frammento di
+              piccole dimensioni di transenna con decorazioni fitoformi, non
+              dissimile a quello sopracitata: anche in questo caso è stato
+              possibile riscontare alcune somiglianze con un frammento
+              proveniente dalla stessa ex chiesa di San Vincenzo a Cortona. I
+              collegamenti con il territorio di Cortona sono ben riscontrabili
+              anche dal ritrovamento di una colonnetta con capitello di ottimo
+              pregio. Si tratta di un elemento architettonico da interno e
+              puramente decorativo vista le dimensioni: è composto da una
+              colonna quadrangolare e un capitello con richiami a decorazioni
+              floreali. <br /> <br /> Anche in questo caso il tempo e il
+              riutilizzo da parte dell{`'`}uomo hanno cancellato alcuni tratti
+              dell{`'`}oggetto, ma è stato comunque possibile eseguire un
+              confronto con un elemento simile rinvenuto nella chiesa di Sant
+              {`'`}Angelo a Metelliano nel territorio di Cortona. Come già
+              accennato nei paragrafi precedenti, le fonti documentarie in
+              nostro possesso collocano la Pieve di San Quirico intorno al XII
+              secolo, ma i confronti degli oggetti rinvenuti con reperti del
+              territorio di Cortona permettono di fornire una datazione
+              antecedente al XII: gli elementi architettonici di Cortona, sono
+              infatti datati alla fine del VIII e inizi IX secolo.
             </p>
           </motion.div>
         )}
+        <picture className="cover">
+          <source
+            alt={'sito archeologico di san quirico, pozzo'}
+            decoding={'async'}
+            loading={'lazy'}
+            height={'auto'}
+            width={'100%'}
+            srcSet={'/croce-altorilievo-3.webp'}
+            type="image/webp"
+          />
+          <motion.img
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            variants={{
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            alt={'sito archeologico di san quirico, pozzo'}
+            loading={'lazy'}
+            decoding={'async'}
+            src={'/vaso.jpg'}
+            height={'auto'}
+            width={'100%'}
+          />
+        </picture>
         <div className="form-cnt">
-          <motion.h5
+          <motion.h6
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -254,8 +317,8 @@ function Ruota() {
             }}
             className="medium-font highlight-main"
           >
-            Can you help?
-          </motion.h5>
+            Vuoi dare una mano?
+          </motion.h6>
           <form action="https://formsubmit.co/" method="POST" className="form">
             <motion.input
               initial="hidden"

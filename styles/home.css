@@ -54,8 +54,9 @@
 }
 
 .main-cnt {
-  margin-top: var(--marginSection);
-  margin-bottom: var(--marginSection);
+  background-color: var(--color-bg-primary);
+  padding-top: var(--marginSection);
+  padding-bottom: var(--marginSection);
 }
 
 .main-cnt div {
@@ -102,7 +103,8 @@
 }
 
 .foto-san-quirico-1-cnt {
-  margin-top: var(--marginSection);
+  background-color: var(--color-bg-primary);
+  padding-top: var(--marginSection);
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -120,6 +122,7 @@
 
 .marquee-sezione-cnt {
   position: relative;
+  background-color: var(--color-bg-primary);
 }
 
 .marquee-sezione {
@@ -188,7 +191,9 @@
 }
 
 .foto-san-quirico-2-cnt {
-  margin-top: var(--marginSection);
+  background-color: var(--color-bg-primary);
+  background-color: var(--color-bg-primary);
+  padding-top: var(--marginSection);
   display: flex;
   justify-content: space-between;
 }
@@ -208,7 +213,8 @@
 }
 
 .ruota-cnt {
-  margin-top: var(--marginSection);
+  background-color: var(--color-bg-primary);
+  padding-top: var(--marginSection);
   display: flex;
   flex-direction: row;
 }
@@ -220,11 +226,6 @@
 .ruota-paragrafo-cnt {
   width: 50%;
   padding-right: var(--marginLayout);
-}
-
-.ruota-paragrafo-cnt p,
-img {
-  padding-top: 2rem;
 }
 
 .ruota-paragrafo-cnt img {
@@ -311,7 +312,8 @@ img {
 }
 
 .archeologia-sezione {
-  margin-top: var(--marginSection);
+  background-color: var(--color-bg-primary);
+  padding-top: var(--marginSection);
 }
 
 .archeologia-descrizione {
@@ -429,7 +431,7 @@ img {
 
 .san-quirico-descrizione-cnt {
   display: flex;
-  margin-top: var(--marginSection);
+  padding-top: var(--marginSection);
   flex-direction: row;
 }
 
@@ -499,12 +501,13 @@ img {
 }
 
 .foto-4-cnt {
-  margin-top: 10rem;
+  background-color: var(--color-bg-primary);
+  padding-top: 10rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: var(--marginLayout);
-  margin-right: var(--marginLayout);
+  padding-left: var(--marginLayout);
+  padding-right: var(--marginLayout);
 }
 
 .foto-archeologica {
@@ -522,4 +525,16 @@ img {
 .foto-4-reperti img {
   width: 100%;
   height: auto;
+}
+
+.ruota-cnt h6 {
+  margin-top: 4rem;
+}
+
+.foto-4-cnt img {
+  margin-top: 1rem;
+}
+
+.caption-scheletro {
+  margin-bottom: 1rem;
 }
