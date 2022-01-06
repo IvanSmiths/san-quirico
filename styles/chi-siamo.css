@@ -1,0 +1,60 @@
+.chi-siamo-foto-cnt {
+  width: 70%;
+  position: relative;
+  margin-top: 4rem;
+  margin-left: auto;
+}
+
+.chi-siamo-foto-cnt img {
+  object-fit: cover;
+}
+
+.descrizione-chi-siamo-foto {
+  transform-origin: 15px;
+  position: absolute;
+  right: 84%;
+  width: 20%;
+  display: inline;
+  text-transform: uppercase;
+  bottom: 8px;
+  transform: rotate(-90deg);
+}
+
+.chi-siamo-testo {
+  margin-top: var(--marginSection);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.chi-siamo-testo p {
+  width: 50%;
+}
+
+.staff-cnt {
+  margin-top: var(--marginSection);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.staff-container {
+  width: 25%;
+}
+
+.staff-container h2 {
+  margin-top: 1rem;
+}
+
+.staff-container p {
+  margin: 1rem 0;
+}
+
+.staff-foto img {
+  width: 100%;
+  height: auto;
+}
