@@ -52,7 +52,7 @@ body[data-theme='light'] {
   --color-text-primary: #181618;
   --color-text-sub: #eeeeee;
   --color-text-inverse: #e2ddd6;
-  --color-bg-inverse: #060606;
+  --color-bg-inverse: #171411;
 }
 
 body[data-theme='dark'] {
@@ -60,7 +60,7 @@ body[data-theme='dark'] {
   --color-text-primary: #dbd2c4;
   --color-text-sub: #2a2a2a;
   --color-text-inverse: #201c20;
-  --color-bg-inverse: #e2ddd6;
+  --color-bg-inverse: #d4ccbc;
 }
 
 body {
@@ -188,18 +188,36 @@ em {
 .footer {
   z-index: -1;
   width: 100%;
-  background-color: var(--color-bg-inverse);
   height: 100vh;
+  background-color: var(--color-bg-inverse);
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-bg-primary);
 }
 
 .footer-email {
-  height: 100%;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .footer a {
+  color: var(--color-text-inverse);
+}
+
+.footer-informazioni {
+  height: 10%;
+  padding: 0 var(--marginLayout);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-informazioni span {
   color: var(--color-text-inverse);
 }
 
@@ -224,6 +242,11 @@ em {
   left: var(--marginLayout);
   font-size: 1.4rem;
   z-index: 9999;
+  overflow: visible;
+  stroke: var(--color-text-primary);
+  stroke-width: 3;
+  stroke-linejoin: round;
+  stroke-linecap: round;
 }
 
 .san-quirico-archeologia-bio {

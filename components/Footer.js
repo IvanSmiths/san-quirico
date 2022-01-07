@@ -8,6 +8,20 @@ const Footer = () => {
           <em>+ </em> EMAIL
         </a>
       </div>
+      <div className="divider"></div>
+      <div className="footer-informazioni">
+        <div>
+          <span className="tiny-font">home / chi siamo</span>
+        </div>
+        <div>
+          <span className="tiny-font">
+            copyright 2022 san quirico archeologia
+          </span>
+        </div>
+        <div>
+          <span className="tiny-font">deign & code by ivan smiths</span>
+        </div>
+      </div>
     </footer>
   );
 };
