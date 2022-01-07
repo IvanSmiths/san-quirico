@@ -242,11 +242,6 @@ em {
   left: var(--marginLayout);
   font-size: 1.4rem;
   z-index: 9999;
-  overflow: visible;
-  stroke: var(--color-text-primary);
-  stroke-width: 3;
-  stroke-linejoin: round;
-  stroke-linecap: round;
 }
 
 .san-quirico-archeologia-bio {
