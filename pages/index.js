@@ -61,7 +61,6 @@ export default function Home() {
       <Ruota />
       <Showcase3 />
       <Showcase />
-      <FakeFooter />
     </>
   );
 }

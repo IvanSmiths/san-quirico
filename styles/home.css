@@ -17,8 +17,7 @@
 .home-header {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  padding: 0 3vw;
+  margin-left: var(--marginLayout);
   height: 100vh;
 }
 
@@ -54,6 +53,7 @@
 }
 
 .main-cnt {
+  z-index: 3;
   background-color: var(--color-bg-primary);
   padding-top: var(--marginSection);
   padding-bottom: var(--marginSection);
@@ -103,6 +103,7 @@
 }
 
 .foto-san-quirico-1-cnt {
+  z-index: 3;
   background-color: var(--color-bg-primary);
   padding-top: var(--marginSection);
   position: relative;
@@ -191,6 +192,7 @@
 }
 
 .foto-san-quirico-2-cnt {
+  z-index: 3;
   background-color: var(--color-bg-primary);
   background-color: var(--color-bg-primary);
   padding-top: var(--marginSection);
@@ -537,4 +539,12 @@
 
 .caption-scheletro {
   margin-bottom: 1rem;
+}
+
+.ruota-cnt p {
+  margin-top: 2rem;
+}
+
+.archeologia-descrizione {
+  margin-bottom: 2rem;
 }
