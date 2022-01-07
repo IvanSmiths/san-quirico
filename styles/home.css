@@ -548,3 +548,13 @@
 .archeologia-descrizione {
   margin-bottom: 2rem;
 }
+
+.fig-cnt {
+  width: 100%;
+  display: flex;
+}
+
+.foto-san-quirico-2-img-cnt figcaption {
+  margin-bottom: 1rem;
+  margin-left: auto;
+}

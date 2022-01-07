@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState, useEffect, useContext } from 'react';
-
+import { motion } from 'framer-motion';
 const ThemeToggle = () => {
   const [activeTheme, setActiveTheme] = useState(document.body.dataset.theme);
   const inactiveTheme = activeTheme === 'dark' ? 'light' : 'dark';

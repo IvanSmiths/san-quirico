@@ -8,18 +8,28 @@ function Showcase4() {
     <>
       <div className="foto-san-quirico-2-cnt">
         <div className="foto-san-quirico-2-paragrafo-cnt foto-4">
-          <h2 className="medium-font">
+          <motion.h2
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            variants={{
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            className="medium-font"
+          >
             <em>+++</em> <br />
             Analisi storica della Pieve di San Quirico
-          </h2>
+          </motion.h2>
           <motion.p
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
             variants={{
-              hidden: { opacity: 0, x: -100 },
-              visible: { opacity: 1, x: 0 },
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
             }}
             className="small-font"
           >
@@ -146,12 +156,32 @@ function Showcase4() {
               </motion.ol>
             </motion.div>
           )}
-          <h4 className="medium-font">
+          <motion.h4
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            variants={{
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            className="medium-font"
+          >
             {' '}
             <em>+++</em> <br />
             Decadenza della Pieve
-          </h4>
-          <p className="small-font">
+          </motion.h4>
+          <motion.p
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            variants={{
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            className="small-font"
+          >
             La decadenza dell{`'`}edificio sacro fu dovuta probabilmente alla
             sua localizzazione impervia e disagevole, ma soprattutto all{`'`}
             importanza assunta dalla viabilità del fondovalle con la fondazione
@@ -167,13 +197,23 @@ function Showcase4() {
             </strong>{' '}
             ed inoltre ci informa dello stato di inadeguatezza dell’intero
             complesso.
-          </p>
+          </motion.p>
         </div>
         <div className="foto-san-quirico-2-img-cnt foto-archeologica">
-          <picture>
-            <figcaption className="small-font caption-scheletro">
+          <picture className="test2">
+            <motion.figcaption
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 100 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              className="small-font caption-scheletro"
+            >
               <em>+ </em>ritrovamento di uno scheletro
-            </figcaption>
+            </motion.figcaption>
             <source
               alt={'sito archeologico di san quirico, pozzo'}
               decoding={'async'}
@@ -204,10 +244,30 @@ function Showcase4() {
       </div>
       <div className="foto-4-cnt">
         <div className="foto-4-archeologia">
-          <picture className="foto-4-reperti">
-            <figcaption className="small-font">
+          <motion.picture
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            variants={{
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            className="foto-4-reperti"
+          >
+            <motion.figcaption
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 100 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              className="small-font"
+            >
               <em>+ </em>mura esterne
-            </figcaption>
+            </motion.figcaption>
             <source
               alt={'sito archeologico di san quirico, pozzo'}
               decoding={'async'}
@@ -233,13 +293,33 @@ function Showcase4() {
               height={'700px'}
               width={'400px'}
             />
-          </picture>
+          </motion.picture>
         </div>
         <div className="foto-4-archeologia foto-archeologica-2">
-          <picture className="foto-4-reperti">
-            <figcaption className="small-font">
+          <motion.picture
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+            variants={{
+              hidden: { opacity: 0, y: 100 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            className="foto-4-reperti"
+          >
+            <motion.figcaption
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+              variants={{
+                hidden: { opacity: 0, y: 100 },
+                visible: { opacity: 1, y: 0 },
+              }}
+              className="small-font"
+            >
               <em>+ </em>reperto di uno scheletro
-            </figcaption>
+            </motion.figcaption>
             <source
               alt={'sito archeologico di san quirico, pozzo'}
               decoding={'async'}
@@ -265,7 +345,7 @@ function Showcase4() {
               height={'700px'}
               width={'400px'}
             />
-          </picture>
+          </motion.picture>
         </div>
       </div>
     </>
