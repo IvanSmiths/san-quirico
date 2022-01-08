@@ -35,9 +35,9 @@
 .hero-freccia {
   z-index: 6;
   left: 50%;
-  bottom: 20px;
+  bottom: 55px;
   overflow: visible;
-  stroke: var(--main-color);
+  stroke: white;
   stroke-width: 2;
   stroke-linejoin: round;
   stroke-linecap: round;
@@ -53,6 +53,7 @@
 }
 
 .main-cnt {
+  transition: 0.4s ease-in-out;
   z-index: 3;
   background-color: var(--color-bg-primary);
   padding-top: var(--marginSection);
@@ -103,6 +104,7 @@
 }
 
 .foto-san-quirico-1-cnt {
+  transition: 0.4s ease-in-out;
   z-index: 3;
   background-color: var(--color-bg-primary);
   padding-top: var(--marginSection);
@@ -122,6 +124,7 @@
 }
 
 .marquee-sezione-cnt {
+  transition: 0.4s ease-in-out;
   position: relative;
   background-color: var(--color-bg-primary);
 }
@@ -192,6 +195,7 @@
 }
 
 .foto-san-quirico-2-cnt {
+  transition: 0.4s ease-in-out;
   z-index: 3;
   background-color: var(--color-bg-primary);
   background-color: var(--color-bg-primary);
@@ -215,6 +219,7 @@
 }
 
 .ruota-cnt {
+  transition: 0.4s ease-in-out;
   background-color: var(--color-bg-primary);
   padding-top: var(--marginSection);
   display: flex;
@@ -314,6 +319,7 @@
 }
 
 .archeologia-sezione {
+  transition: 0.4s ease-in-out;
   background-color: var(--color-bg-primary);
   padding-top: var(--marginSection);
 }
@@ -432,6 +438,7 @@
 }
 
 .san-quirico-descrizione-cnt {
+  transition: 0.4s ease-in-out;
   display: flex;
   padding-top: var(--marginSection);
   flex-direction: row;

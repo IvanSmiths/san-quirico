@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+
 const Footer = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <AnimatePresence>
-      <footer className="footer">
+      <footer
+        className="footer"
+        style={{ minHeight: `${isOpen ? '120vh' : '100vh'}` }}
+      >
         <div className="footer-email">
           <span
             style={{ marginBottom: `${isOpen ? '8rem' : '1rem'}` }}

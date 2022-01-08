@@ -16,10 +16,6 @@ body,
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  z-index: 8;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -251,9 +247,34 @@ em {
   position: fixed;
   top: 20px;
   cursor: pointer;
-  left: var(--marginLayout);
+  right: var(--marginLayout);
   font-size: 1.4rem;
   z-index: 9999;
+}
+
+/* NAVBAR */
+/* NAVBAR */
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+  top: 20px;
+  cursor: pointer;
+  left: var(--marginLayout);
+  z-index: 9999;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.logo {
+  fill: var(--color-text-primary);
+  overflow: visible;
+  stroke: var(--color-text-primary);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
 }
 
 .san-quirico-archeologia-bio {
