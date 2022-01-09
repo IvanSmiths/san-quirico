@@ -1,0 +1,86 @@
+@media only screen and (max-width: 767px) {
+  .titolo {
+    width: 100%;
+  }
+
+  .main-paragraph-image img {
+    object-fit: contain;
+    width: auto;
+    height: 60px;
+  }
+
+  .main-cnt div {
+    width: 80%;
+  }
+
+  .main-cnt p {
+    line-height: 5rem;
+  }
+
+  .marquee {
+    margin-top: -2rem;
+  }
+
+  .marquee-sezione {
+    left: 6%;
+  }
+
+  .marquee-sezione-2 {
+    right: 6%;
+  }
+
+  .marquee-sezione img {
+    width: 36vw;
+    height: auto;
+  }
+
+  .marquee-sezione-2 img {
+    height: 100%;
+    width: 36vw;
+  }
+
+  .foto-4 {
+    width: 65%;
+  }
+
+  .foto-4-cnt {
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  .foto-4-archeologia {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .foto-4-archeologia foto-archeologica-2 {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .foto-san-quirico-1 {
+    width: 40%;
+  }
+  .descrizione-foto {
+    left: 40.5%;
+  }
+
+  .foto-san-quirico-1-paragrafo-cnt {
+    width: 55%;
+  }
+
+  .ruota-paragrafo-cnt {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+}

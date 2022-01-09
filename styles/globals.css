@@ -231,6 +231,7 @@ em {
 
 @import 'home.css';
 @import 'chi-siamo.css';
+@import 'query.css';
 
 .flex-center {
   display: flex;
