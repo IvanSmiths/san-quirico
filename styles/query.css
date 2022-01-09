@@ -76,6 +76,7 @@
 
   .ruota-paragrafo-cnt {
     width: 55%;
+    padding-right: 0;
   }
 }
 
@@ -91,6 +92,7 @@
   }
 
   .foto-san-quirico-2-img-cnt {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,16 +104,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
   }
 
   .fig-cnt {
     width: 90%;
     display: flex;
-  }
-
-  .test2 img {
-    width: 90%;
   }
 
   .titolo {
@@ -131,7 +129,7 @@
   }
 
   .main-cnt div {
-    width: 97%;
+    width: 88%;
   }
 
   .main-paragraph-image img {
@@ -166,10 +164,6 @@
 
   .foto-san-quirico-2-img-cnt picture img {
     width: 100%;
-  }
-
-  .test2 {
-    width: 90vw;
   }
 
   .foto-4-cnt {
