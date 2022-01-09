@@ -80,7 +80,164 @@
 }
 
 @media only screen and (max-width: 480px) {
-  body {
-    background-color: red;
+  .foto-san-quirico-2-cnt {
+    align-items: center;
+  }
+
+  .foto-san-quirico-2-paragrafo-cnt {
+    padding: 0 var(--marginLayout);
+    width: 90%;
+    margin-top: 4rem;
+  }
+
+  .foto-san-quirico-2-img-cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .test2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .fig-cnt {
+    width: 90%;
+    display: flex;
+  }
+
+  .test2 img {
+    width: 90%;
+  }
+
+  .titolo {
+    padding: 0;
+    margin-bottom: 7rem;
+  }
+
+  .main-cnt p {
+    margin: 0;
+    line-height: 3.5rem;
+  }
+
+  .test-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-cnt div {
+    width: 97%;
+  }
+
+  .main-paragraph-image img {
+    height: 40px;
+  }
+  .marquee {
+    margin-top: -1rem;
+  }
+
+  .marquee-sezione {
+    left: 12%;
+    top: 51.5%;
+  }
+
+  .marquee-sezione-2 {
+    display: none;
+  }
+
+  .marquee-sezione img {
+    width: 80vw;
+    height: auto;
+  }
+
+  .foto-san-quirico-2-cnt {
+    flex-direction: column;
+  }
+
+  .foto-archeologica {
+    margin: 0;
+    margin-top: 3rem;
+  }
+
+  .foto-san-quirico-2-img-cnt picture img {
+    width: 100%;
+  }
+
+  .test2 {
+    width: 90vw;
+  }
+
+  .foto-4-cnt {
+    padding-top: 0rem;
+  }
+
+  .foto-san-quirico-1-cnt {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .foto-san-quirico-1 {
+    width: 90%;
+  }
+
+  .foto-san-quirico-1-paragrafo-cnt {
+    width: 90%;
+  }
+
+  .foto-san-quirico-1-paragrafo-cnt {
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 3rem;
+  }
+
+  .descrizione-foto {
+    display: none;
+  }
+
+  .ruota-cnt {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cnt-model {
+    width: 90%;
+    z-index: 587;
+  }
+
+  .ruota-paragrafo-cnt {
+    width: 89%;
+  }
+
+  .archeologia-descrizione {
+    flex-direction: column;
+  }
+
+  .archeologia-descrizione h2 {
+    width: 90%;
+    padding-left: 0;
+  }
+
+  .archeologia-descrizione p {
+    width: 90%;
+    margin-top: 3rem;
+    text-align: left;
+    padding-right: 0;
+  }
+
+  .footer-email {
+    min-height: 80% !important;
+  }
+
+  .footer-informazioni {
+    flex-direction: column !important;
+    height: 20% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0.7rem !important;
   }
 }

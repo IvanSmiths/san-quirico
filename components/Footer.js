@@ -42,7 +42,7 @@ const Footer = () => {
               exit={{ opacity: 0, y: 100 }}
               className=""
             >
-              <a className="medium-font" href="mailto:sanquirico@gmail.com">
+              <a className="small-font" href="mailto:sanquirico@gmail.com">
                 info@sanquiricoarcheologia.com
               </a>
             </motion.div>
