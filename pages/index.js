@@ -11,6 +11,7 @@ import Showcase from '../components/HomePage/Showcase';
 import Showcase2 from '../components/HomePage/Showcase2';
 import Showcase3 from '../components/HomePage/Showcase3';
 import Showcase4 from '../components/HomePage/Showcase4';
+import Showcase5 from '../components/HomePage/Showcase5';
 
 export default function Home() {
   const schemaData = {
@@ -56,7 +57,7 @@ export default function Home() {
       <About />
       <CntMarquee />
       <Showcase4 />
-      <Showcase />
+      <Showcase5 />
       <Showcase2 />
       <Ruota />
       <Showcase3 />
