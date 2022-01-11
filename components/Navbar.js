@@ -44,6 +44,9 @@ const Navbar = () => {
       <Link href="/chi-siamo">
         <a>chi siamo</a>
       </Link>
+      <Link href="/contatti">
+        <a>contatti</a>
+      </Link>
     </nav>
   );
 };

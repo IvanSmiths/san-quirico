@@ -59,3 +59,40 @@
   width: 100%;
   height: auto;
 }
+
+/* CONTATTI */
+/* CONTATTI */
+/* CONTATTI */
+
+.contatti-cnt {
+  margin-top: 10rem;
+  margin-bottom: var(--marginSection);
+  display: flex;
+  flex-direction: row;
+  margin-left: var(--marginLayout);
+  margin-right: var(--marginLayout);
+}
+
+.contatti-info-cnt {
+  width: 50%;
+  padding-right: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contatti-info-cnt p {
+  margin: 2rem 0;
+}
+
+.contatti-info-cnt ul li {
+  margin-bottom: 2rem;
+  list-style: none;
+}
+
+.contatti-form-cnt {
+  width: 50%;
+}
+
+#instagram path {
+  fill: var(--color-text-primary);
+}

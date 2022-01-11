@@ -46,7 +46,7 @@ body,
 body[data-theme='light'] {
   --color-bg-primary: #d4ccbc;
   --color-text-primary: #181618;
-  --color-text-sub: #eeeeee;
+  --color-text-sub: #ffffff;
   --color-text-inverse: #e2ddd6;
   --color-bg-inverse: #171411;
 }
@@ -135,7 +135,8 @@ h6,
 p,
 a,
 li,
-figcaption {
+figcaption,
+span {
   font-weight: 400;
   color: var(--color-text-primary);
 }
@@ -269,6 +270,7 @@ em {
   align-items: center;
   gap: 3rem;
 }
+
 .logo {
   fill: var(--color-text-primary);
   overflow: visible;
@@ -282,6 +284,13 @@ em {
   position: absolute;
   left: -300vw;
   width: 50px;
+}
+
+.instagram-cnt {
+  position: fixed;
+  top: 27px;
+  z-index: 9999;
+  right: 140px;
 }
 
 @import 'query.css';
