@@ -24,6 +24,7 @@ function Gallery() {
         scrollTrigger: {
           trigger: element.querySelector('#box'),
           start: 'top top',
+          markers: true,
           end: 'bottom top',
           ease: 'power1',
           scrub: true,
@@ -33,8 +34,8 @@ function Gallery() {
     );
   }, []);
   return (
-    <section ref={ref}>
-      <div className="box-cnt" id="box-cnt">
+    <>
+      <div ref={ref} className="box-cnt" id="box-cnt">
         <div id="box" className="box">
           <div id="box1" className="box1">
             <picture className="archeologia-foto-1">
@@ -205,7 +206,7 @@ function Gallery() {
           </div>
         </div>
       </div>
-    </section>
+    </>
   );
 }
 

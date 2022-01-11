@@ -99,13 +99,13 @@ function Ruota() {
             </p>
           </motion.div>
         )}
-        <picture className="cover">
+        <picture className="cover rosone-immagine">
           <source
             alt={'sito archeologico di san quirico, pozzo'}
             decoding={'async'}
             loading={'lazy'}
-            height={'auto'}
-            width={'100%'}
+            height={'450px'}
+            width={'200px'}
             srcSet={'/colonna-2.webp'}
             type="image/webp"
           />
@@ -122,8 +122,8 @@ function Ruota() {
             loading={'lazy'}
             decoding={'async'}
             src={'/colonna-2.jpg'}
-            height={'auto'}
-            width={'100%'}
+            height={'450px'}
+            width={'200px'}
           />
         </picture>
         <motion.h4
@@ -140,13 +140,13 @@ function Ruota() {
           Il primo oggetto rinvenuto è una porzione di transenna di forma
           trapezoidale con elementi decorativi fitoformi, in pietra arenaria.
         </motion.h4>
-        <picture className="cover">
+        <picture className="cover rosone-immagine">
           <source
             alt={'sito archeologico di san quirico, pozzo'}
             decoding={'async'}
             loading={'lazy'}
-            height={'auto'}
-            width={'100%'}
+            height={'450px'}
+            width={'200px'}
             srcSet={'/vaso.webp'}
             type="image/webp"
           />
@@ -164,7 +164,7 @@ function Ruota() {
             decoding={'async'}
             src={'/croce-altorilievo-3.jpg'}
             height={'auto'}
-            width={'100%'}
+            width={'200px'}
           />
         </picture>
         <motion.h5
@@ -278,13 +278,13 @@ function Ruota() {
             </p>
           </motion.div>
         )}
-        <picture className="cover">
+        <picture className="cover rosone-immagine">
           <source
             alt={'sito archeologico di san quirico, pozzo'}
             decoding={'async'}
             loading={'lazy'}
-            height={'auto'}
-            width={'100%'}
+            height={'450px'}
+            width={'200px'}
             srcSet={'/croce-altorilievo-3.webp'}
             type="image/webp"
           />
@@ -301,12 +301,12 @@ function Ruota() {
             loading={'lazy'}
             decoding={'async'}
             src={'/vaso.jpg'}
-            height={'auto'}
-            width={'100%'}
+            height={'450px'}
+            width={'200px'}
           />
         </picture>
         <div className="form-cnt">
-          <motion.h6
+          <motion.h5
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -318,7 +318,7 @@ function Ruota() {
             className="medium-font highlight-main"
           >
             Vuoi dare una mano?
-          </motion.h6>
+          </motion.h5>
           <form action="https://formsubmit.co/" method="POST" className="form">
             <motion.input
               initial="hidden"

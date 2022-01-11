@@ -573,3 +573,13 @@
 .foto-archeologica-2 {
   margin-left: var(--marginLayout);
 }
+
+.rosone-immagine {
+  width: 100%;
+  height: auto;
+}
+
+.rosone-immagine img {
+  width: 100%;
+  height: auto;
+}

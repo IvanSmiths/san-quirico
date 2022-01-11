@@ -2,7 +2,7 @@ import Head from 'next/head';
 import FakeFooter from '../components/FakeFooter';
 import About from '../components/HomePage/About';
 import CntMarquee from '../components/HomePage/CntMarquee';
-import Gallery from '../components/HomePage/Gallery';
+import Gallery2 from '../components/HomePage/Gallery';
 
 import Hero from '../components/HomePage/Hero';
 import Paragraph from '../components/HomePage/Paragraph';
@@ -56,6 +56,7 @@ export default function Home() {
       <Hero />
       <About />
       <CntMarquee />
+      <Gallery2 />
       <Showcase4 />
       <Showcase5 />
       <Showcase2 />
