@@ -17,7 +17,7 @@ const About = () => {
           }}
           className="medium-font"
         >
-          La Pieve di{' '}
+          La Pieve di San Quirico{' '}
           <motion.picture
             initial="hidden"
             whileInView="visible"
@@ -47,7 +47,7 @@ const About = () => {
               width={'160px'}
             />
           </motion.picture>{' '}
-          San Quirico in Alfiano,{' '}
+          in Alfiano,{' '}
           <motion.picture
             initial="hidden"
             whileInView="visible"
