@@ -269,6 +269,7 @@
   background-color: var(--color-bg-primary);
   background-color: var(--color-bg-primary);
   padding-top: var(--marginSection);
+  padding-bottom: var(--marginSection);
   display: flex;
   justify-content: space-between;
 }

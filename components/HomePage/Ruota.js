@@ -28,7 +28,7 @@ function Ruota() {
             hidden: { opacity: 0, y: 100 },
             visible: { opacity: 1, y: 0 },
           }}
-          className="medium-font"
+          className="medium-font impact"
         >
           Analisi dei reperti
         </motion.h3>
@@ -176,7 +176,7 @@ function Ruota() {
             hidden: { opacity: 0, y: 100 },
             visible: { opacity: 1, y: 0 },
           }}
-          className="medium-font"
+          className="medium-font impact"
         >
           Reperti e teorie
         </motion.h5>
@@ -315,7 +315,7 @@ function Ruota() {
               hidden: { opacity: 0, y: 100 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="medium-font highlight-main"
+            className="medium-font highlight-main impact"
           >
             Vuoi dare una mano?
           </motion.h5>

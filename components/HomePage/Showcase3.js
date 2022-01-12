@@ -15,7 +15,7 @@ const Showcase3 = () => {
             hidden: { opacity: 0, y: 100 },
             visible: { opacity: 1, y: 0 },
           }}
-          className="medium-font"
+          className="medium-font impact"
         >
           Lorem ipsum
         </motion.h2>

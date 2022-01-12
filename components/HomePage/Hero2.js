@@ -76,7 +76,7 @@ function Hero() {
               transform="translate(-98 -28.001)"
             />
           </svg>{' '}
-          <span className="titolo-4">San Quirico </span> <br />
+          <span className="titolo-4 impact">San Quirico </span> <br />
           <span className="titolo-5"> In Alfiano</span>{' '}
           <Link href="/#about">
             <a>

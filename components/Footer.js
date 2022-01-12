@@ -14,7 +14,7 @@ const Footer = () => {
           <span
             style={{ marginBottom: `${isOpen ? '8rem' : '1rem'}` }}
             onClick={() => setIsOpen(!isOpen)}
-            className="large-font"
+            className="large-font impact"
           >
             <motion.em
               animate={{
