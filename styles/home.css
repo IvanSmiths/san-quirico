@@ -136,15 +136,17 @@
 }
 
 .main-cnt p {
+  text-transform: uppercase;
   display: inline;
   margin: 1rem;
   line-height: 7rem;
 }
 
 .main-paragraph-image img {
-  width: 96px;
+  width: 136px;
+  object-fit: cover;
   height: 90px;
-  margin-bottom: -10px;
+  margin-bottom: -22px;
 }
 
 .main-paragraph-image picture {
@@ -158,7 +160,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-top: -5rem;
+  margin-top: 0rem;
 }
 
 .track {

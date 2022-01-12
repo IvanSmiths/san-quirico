@@ -287,7 +287,7 @@ const About = () => {
               width={'160px'}
             />
           </motion.picture>{' '}
-          da parte di San Quirico Archeologia{' '}
+          da parte di{' '}
           <motion.picture
             initial="hidden"
             whileInView="visible"
@@ -317,7 +317,7 @@ const About = () => {
               width={'160px'}
             />
           </motion.picture>{' '}
-          dal 2013 per mantenerne il decoro.
+          San Quirico Archeologia dal 2013 per mantenerne il decoro.
         </motion.p>
       </div>
     </div>
