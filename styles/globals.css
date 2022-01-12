@@ -253,13 +253,17 @@ em {
   flex-wrap: wrap;
 }
 
+.instagram-cnt {
+  display: none;
+}
+
 /* THEME SWITCH */
 /* THEME SWITCH */
 /* THEME SWITCH */
 
 .theme-toggle {
   position: fixed;
-  top: 30px;
+  top: 20px;
   cursor: pointer;
   right: var(--marginLayout);
   font-size: 1.4rem;
@@ -280,7 +284,7 @@ em {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .logo {
@@ -299,10 +303,12 @@ em {
 }
 
 .instagram-cnt {
+  display: none;
+  gap: 1rem;
   position: fixed;
-  top: 29px;
+  bottom: 19px;
   z-index: 9999;
-  right: 140px;
+  left: var(--marginLayout);
 }
 
 @import 'query.css';

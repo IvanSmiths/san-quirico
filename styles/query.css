@@ -129,7 +129,7 @@
   .contatti {
     position: fixed;
     right: var(--marginLayout);
-    bottom: 30px;
+    bottom: 20px;
   }
   .instagram-cnt {
     right: 90px !important;
@@ -278,6 +278,19 @@
 
   .footer-email {
     min-height: 80% !important;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .theme-toggle {
+    width: 15px;
+    right: var(--marginLayout);
+  }
+
+  .instagram-cnt {
+    display: flex !important;
   }
 
   .footer-informazioni {

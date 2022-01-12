@@ -24,20 +24,20 @@ const ThemeToggle = () => {
     <>
       {activeTheme === 'dark' ? (
         <img
-          height="24px"
-          width="24px"
+          height="54px"
+          width="54px"
           className="theme-toggle"
           onClick={() => setActiveTheme(inactiveTheme)}
-          src="/moon.svg"
+          src="/dark.svg"
           alt={`Change to ${inactiveTheme} mode`}
         />
       ) : (
         <img
-          height="24px"
-          width="24px"
+          height="54px"
+          width="54px"
           className="theme-toggle"
           onClick={() => setActiveTheme(inactiveTheme)}
-          src="/sun.svg"
+          src="/light.svg"
           alt={`Change to ${inactiveTheme} mode`}
         />
       )}
