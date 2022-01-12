@@ -5,11 +5,12 @@ const Model = () => {
     <>
       <model-viewer
         id="reveal"
-        poster="/poster.png"
+        poster="/poster.webp"
         class="sticky"
+        camera-orbit="-155.5deg 74.05deg"
         loading="lazy"
-        src="/3d-model.glb"
-        ios-src="/3d-model.usdz"
+        src="/throwel.glb"
+        ios-src="/throwel.usdz"
         alt="3D model of myself"
         camera-controls
         ar
