@@ -3,6 +3,18 @@
     width: 100%;
   }
 
+  .logo-hero {
+    margin-left: 0;
+    width: 50px;
+    margin-bottom: -0.8rem;
+  }
+
+  .hero-freccia-2 {
+    width: 43px;
+    margin-bottom: -17px;
+    margin-left: 0.9rem;
+  }
+
   .main-paragraph-image img {
     object-fit: contain;
     width: auto;
@@ -81,6 +93,47 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .titolo-6 {
+    margin-left: 6.4rem;
+  }
+
+  .titolo-3 {
+    margin-left: 5rem;
+  }
+
+  .arrotondata img {
+    padding-bottom: 0.3rem;
+  }
+
+  .logo-hero {
+    margin-left: 0;
+    width: 40px;
+    margin-bottom: -1.1rem;
+  }
+
+  .navbar {
+    grid-gap: 2rem !important;
+    gap: 2rem !important;
+  }
+
+  .hero-freccia-2 {
+    width: 33px;
+    margin-bottom: -17px;
+    margin-left: 0.1rem;
+  }
+
+  .titolo-5 {
+    margin-left: 2rem;
+  }
+
+  .contatti {
+    position: fixed;
+    right: var(--marginLayout);
+    bottom: 30px;
+  }
+  .instagram-cnt {
+    right: 90px !important;
+  }
   .foto-san-quirico-2-cnt {
     align-items: center;
   }

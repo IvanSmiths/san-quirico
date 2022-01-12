@@ -1,11 +1,8 @@
 import Head from 'next/head';
-import FakeFooter from '../components/FakeFooter';
 import About from '../components/HomePage/About';
 import CntMarquee from '../components/HomePage/CntMarquee';
 import Gallery2 from '../components/HomePage/Gallery';
-
-import Hero from '../components/HomePage/Hero';
-import Paragraph from '../components/HomePage/Paragraph';
+import Hero2 from '../components/HomePage/Hero2';
 import Ruota from '../components/HomePage/Ruota';
 import Showcase from '../components/HomePage/Showcase';
 import Showcase2 from '../components/HomePage/Showcase2';
@@ -33,10 +30,11 @@ export default function Home() {
       url: 'https://www.ivansmiths.com',
     },
     inLanguage: 'it',
-    copyrightYear: 2021,
+    copyrightYear: 2022,
     genre: 'http://vocab.getty.edu/aat/300000810',
     headline: 'San Quirico Archeologia',
-    keywords: 'san quirico archeologia, san quirico, san quirico toscana',
+    keywords:
+      'San Quirico Archeologia, san quirico, san quirico toscana, archeologia, scavi archeologici',
     locationCreated: 'Toscana',
   };
 
@@ -53,12 +51,12 @@ export default function Home() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
         />
       </Head>
-      <Hero />
+      <Hero2 />
       <About />
-      <CntMarquee />
       <Gallery2 />
       <Showcase4 />
       <Showcase5 />
+      <CntMarquee />
       <Showcase2 />
       <Ruota />
       <Showcase3 />

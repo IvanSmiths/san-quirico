@@ -4,7 +4,14 @@
   flex-direction: column;
 }
 
+.home-header-cnt-2 {
+  min-height: 100vh;
+  position: relative;
+  flex-direction: column;
+}
+
 .home-header-img-cnt {
+  opacity: 0.5;
   z-index: 1;
   position: absolute;
   top: 0;
@@ -14,11 +21,23 @@
   object-fit: cover;
 }
 
+.arrotondata img {
+  border-radius: 50% 50% 0 0;
+}
+
 .home-header {
   display: flex;
   flex-direction: row;
   margin-left: var(--marginLayout);
   height: 100vh;
+}
+
+.home-header-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .titolo {
@@ -30,6 +49,49 @@
   color: white !important;
   margin-top: auto;
   margin-bottom: 3rem;
+}
+
+.titolo-2 {
+  display: block;
+  text-transform: uppercase;
+  z-index: 2;
+  color: white !important;
+}
+
+.titolo-2 span {
+  font-weight: 800;
+  color: white !important;
+}
+
+.titolo-3 {
+  margin-left: -5rem;
+}
+
+.logo-hero {
+  fill: var(--color-text-primary);
+  animation: spin 19s linear infinite;
+  margin-left: 3rem;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.titolo-5 {
+  margin-left: -2rem;
 }
 
 .hero-freccia {
@@ -44,8 +106,15 @@
   position: absolute;
 }
 
-.home-header-img-cnt img {
-  object-fit: cover;
+.hero-freccia-2 {
+  z-index: 6;
+  overflow: visible;
+  stroke: white;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  margin-bottom: -3px;
+  margin-left: 0.9rem;
 }
 
 .cover img {
