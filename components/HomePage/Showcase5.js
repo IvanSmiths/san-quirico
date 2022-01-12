@@ -6,7 +6,7 @@ function Showcase4() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div className="foto-san-quirico-2-cnt">
+      <div className="foto-san-quirico-2-cnt section">
         <div className="foto-san-quirico-2-img-cnt foto-archeologica-2">
           <picture className="test2">
             <motion.figcaption

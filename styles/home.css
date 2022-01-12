@@ -194,6 +194,10 @@
   margin-top: 2rem;
 }
 
+.section {
+  padding-bottom: var(--marginSection);
+}
+
 .marquee-sezione-cnt {
   transition: 0.4s ease-in-out;
   position: relative;
@@ -271,7 +275,6 @@
   background-color: var(--color-bg-primary);
   background-color: var(--color-bg-primary);
   padding-top: var(--marginSection);
-  padding-bottom: var(--marginSection);
   display: flex;
   justify-content: space-between;
 }
