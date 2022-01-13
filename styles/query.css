@@ -289,10 +289,6 @@
     right: var(--marginLayout);
   }
 
-  .instagram-cnt {
-    display: flex !important;
-  }
-
   .footer-informazioni {
     flex-direction: column !important;
     height: 20% !important;
