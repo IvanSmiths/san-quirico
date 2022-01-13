@@ -279,7 +279,6 @@ em {
   top: 20px;
   cursor: pointer;
   left: var(--marginLayout);
-  z-index: 9999;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -320,7 +319,6 @@ em {
   top: 0;
   bottom: 0;
   width: 100%;
-  z-index: 99999;
 }
 
 .background {
@@ -330,7 +328,6 @@ em {
   bottom: 0;
   width: 100vw;
   background: var(--color-bg-inverse);
-  z-index: 9999;
 }
 
 .hamburger path {
@@ -371,6 +368,7 @@ em {
 }
 
 .nav-bnt {
+  display: block !important;
   z-index: 999999;
   outline: none;
   border: none;

@@ -8,6 +8,8 @@ import { Navigation } from './Navigation';
 const sidebar = {
   open: (height = 1000) => ({
     clipPath: `circle(${height * 2 + 200}px at 50% 40px)`,
+    zIndex: 9,
+    display: 'block',
     transition: {
       type: 'spring',
       stiffness: 20,
@@ -15,6 +17,8 @@ const sidebar = {
     },
   }),
   closed: {
+    zIndex: -2,
+    display: 'none',
     clipPath: 'circle(25px at 50% 40px)',
     transition: {
       delay: 0.5,
@@ -38,9 +42,8 @@ export const Example = () => {
       custom={height}
       ref={containerRef}
     >
-      <motion.div className="background" variants={sidebar}>
-        <MenuToggle toggle={() => toggleOpen()} />
-      </motion.div>
+      <motion.div className="background" variants={sidebar}></motion.div>
+      <MenuToggle toggle={() => toggleOpen()} />
       <Navigation toggle={() => toggleOpen()} />
     </motion.nav>
   );
