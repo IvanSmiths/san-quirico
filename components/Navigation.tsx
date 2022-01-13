@@ -40,7 +40,7 @@ export const Navigation = ({ toggle }) => (
       whileTap={{ scale: 0.95 }}
     >
       <Link href="/">
-        <a className="medium-font">HOME</a>
+        <a className="hero-font bold">HOME</a>
       </Link>
     </motion.li>
     <motion.li
@@ -51,7 +51,7 @@ export const Navigation = ({ toggle }) => (
       whileTap={{ scale: 0.95 }}
     >
       <Link href="/chi-siamo">
-        <a className="medium-font">CHI SIAMO</a>
+        <a className="hero-font bold">CHI SIAMO</a>
       </Link>
     </motion.li>
     <motion.li
@@ -62,7 +62,7 @@ export const Navigation = ({ toggle }) => (
       whileTap={{ scale: 0.95 }}
     >
       <Link href="/contatti">
-        <a className="medium-font">CONTATTI</a>
+        <a className="hero-font bold">CONTATTI</a>
       </Link>
     </motion.li>
     <ul className="social-mobile-cnt">
@@ -259,6 +259,15 @@ export const Navigation = ({ toggle }) => (
         </a>
       </motion.li>
     </ul>
+    <motion.a
+      className="small-font bold"
+      variants={variants2}
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.95 }}
+      href="mailto:info@sanquiricoarcheologia.it"
+    >
+      info@sanquiricoarcheologia.it
+    </motion.a>
   </motion.ul>
 );
 

@@ -38,7 +38,7 @@ a {
   --largeFont: clamp(3.5rem, 13vw, 14rem);
   --heroFont: clamp(2.5rem, 7.2vw, 9rem);
   --mediumFont: clamp(1.8rem, 6.6vw, 4rem);
-  --smallFont: clamp(1rem, 1.2vw, 2rem);
+  --smallFont: clamp(1.2rem, 1.2vw, 2rem);
   --tinyFont: clamp(0.7rem, 1vw, 2rem);
 
   --impactBigLine: clamp(2.2rem, 6.3vw, 5.6rem);
@@ -338,8 +338,22 @@ em {
   z-index: 99999;
   position: absolute;
   transform-origin: center;
-  left: 50%;
+  left: 10%;
   top: 25%;
+}
+
+.nav-list-cnt a {
+  color: var(--color-text-inverse);
+  margin-top: 2rem;
+}
+
+.nav-list {
+  margin-bottom: 10px;
+}
+
+.nav-list a {
+  color: var(--color-text-inverse);
+  cursor: pointer;
 }
 
 .social-mobile #instagram path {
@@ -348,6 +362,7 @@ em {
 
 .social-mobile-cnt {
   display: flex;
+  margin-top: 2rem;
   gap: 2rem;
 }
 
@@ -395,12 +410,6 @@ em {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
-}
-
-.nav-list a {
-  margin-bottom: 50px;
-  color: var(--color-text-inverse);
   cursor: pointer;
 }
 
