@@ -17,14 +17,14 @@ const Navbar = () => {
   const [isDesktop, setDesktop] = useState(false);
 
   useEffect(() => {
-    if (window.innerWidth < 450) {
+    if (window.innerWidth < 2450) {
       setDesktop(true);
     } else {
       setDesktop(false);
     }
 
     const updateMedia = () => {
-      if (window.innerWidth < 450) {
+      if (window.innerWidth < 2450) {
         setDesktop(true);
       } else {
         setDesktop(false);

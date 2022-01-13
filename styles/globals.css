@@ -263,7 +263,7 @@ em {
 
 .theme-toggle {
   position: fixed;
-  top: 20px;
+  top: 23px;
   cursor: pointer;
   right: var(--marginLayout);
   font-size: 1.4rem;
@@ -288,6 +288,10 @@ em {
 }
 
 .logo {
+  z-index: 999991;
+  position: fixed;
+  left: var(--marginLayout);
+  top: 20px;
   fill: var(--color-text-primary);
   overflow: visible;
   stroke: var(--color-text-primary);
@@ -314,9 +318,8 @@ em {
 .nav-mobile {
   position: fixed;
   top: 0;
-  left: 0;
   bottom: 0;
-  width: 300px;
+  width: 100%;
   z-index: 99999;
 }
 
@@ -337,9 +340,10 @@ em {
 .nav-list-cnt {
   z-index: 99999;
   position: absolute;
+  width: 100%;
   transform-origin: center;
-  left: 10%;
-  top: 25%;
+  left: var(--marginLayout);
+  top: 15%;
 }
 
 .nav-list-cnt a {
@@ -367,7 +371,7 @@ em {
 }
 
 .nav-bnt {
-  z-index: 9999;
+  z-index: 999999;
   outline: none;
   border: none;
   -webkit-user-select: none;
@@ -375,10 +379,9 @@ em {
   -ms-user-select: none;
   cursor: pointer;
   position: absolute;
-  top: 18px;
-  left: 15px;
-  width: 50px;
-  height: 50px;
+  top: 30px;
+  left: 49.25%;
+  transform-origin: center;
   border-radius: 50%;
   background: transparent;
 }
