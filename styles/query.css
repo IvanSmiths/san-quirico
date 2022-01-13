@@ -93,8 +93,26 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .titolo-3 {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: -2.8rem;
+  }
+
   .titolo-6 {
     margin-left: 6.4rem;
+  }
+
+  .titolo-5 {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .hero-freccia-2 {
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform-origin: -50% -50%;
   }
 
   .titolo-3 {
