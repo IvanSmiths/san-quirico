@@ -284,11 +284,6 @@
     display: none;
   }
 
-  .theme-toggle {
-    width: 15px;
-    right: var(--marginLayout);
-  }
-
   .footer-informazioni {
     flex-direction: column !important;
     height: 20% !important;

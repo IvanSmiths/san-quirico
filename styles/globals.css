@@ -317,6 +317,7 @@ em {
   left: 0;
   bottom: 0;
   width: 300px;
+  z-index: 99999;
 }
 
 .background {
@@ -325,30 +326,33 @@ em {
   left: 0;
   bottom: 0;
   width: 100vw;
-  background: var(--color-bg-primary);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: var(--color-bg-inverse);
+  z-index: 9999;
 }
 
 .hamburger path {
-  stroke: var(--color-text-primary);
+  stroke: var(--color-text-inverse);
 }
 
 .nav-list-cnt {
+  z-index: 99999;
   position: absolute;
+  transform-origin: center;
+  left: 50%;
+  top: 25%;
 }
 
-.nav-list-cnt li {
-  list-style: none;
-  margin-bottom: 20px;
+.social-mobile #instagram path {
+  fill: var(--color-text-inverse);
+}
+
+.social-mobile-cnt {
   display: flex;
-  align-items: center;
-  color: var(--color-text-primary);
-  cursor: pointer;
+  gap: 2rem;
 }
 
 .nav-bnt {
+  z-index: 9999;
   outline: none;
   border: none;
   -webkit-user-select: none;
@@ -391,6 +395,12 @@ em {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.nav-list a {
+  margin-bottom: 50px;
+  color: var(--color-text-inverse);
   cursor: pointer;
 }
 
