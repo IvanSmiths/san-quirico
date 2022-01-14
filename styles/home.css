@@ -75,6 +75,7 @@ h1 img {
   fill: var(--color-text-primary);
   animation: spin 19s linear infinite;
   margin-left: 3rem;
+  margin-right: 2rem;
 }
 
 @-moz-keyframes spin {

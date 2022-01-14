@@ -287,16 +287,11 @@ em {
 }
 
 .logo {
-  z-index: 999991;
+  z-index: 99999;
   position: fixed;
   left: var(--marginLayout);
   top: 20px;
   fill: var(--color-text-primary);
-  overflow: visible;
-  stroke: var(--color-text-primary);
-  stroke-width: 2;
-  stroke-linejoin: round;
-  stroke-linecap: round;
 }
 
 .san-quirico-archeologia-bio {
