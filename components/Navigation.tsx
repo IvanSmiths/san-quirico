@@ -14,18 +14,20 @@ const variants = {
 const variants2 = {
   open: {
     y: 0,
-    display: 'block',
+    zIndex: 99999999,
     opacity: 1,
+    display: 'block',
     transition: {
       y: { stiffness: 1000, velocity: -100 },
     },
   },
   closed: {
     y: 50,
+    zIndex: 0,
     display: 'none',
     opacity: 0,
     transition: {
-      y: { stiffness: 1000 },
+      y: { stiffness: 7000 },
     },
   },
 };
